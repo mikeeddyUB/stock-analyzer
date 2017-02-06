@@ -1,0 +1,33 @@
+div[title=A],
+div[title="1-SB"] {
+  color: #47e047;
+  font-weight: bolder;
+}
+
+div[title=B],
+div[title="2-Buy"] {
+  color: #b3f7b3;
+  font-weight: bolder;
+}
+
+div[title=C],
+div[title="3-Hold"] {
+  color: #87c8f5;
+	font-weight: bolder;
+}
+
+div[title=D],
+div[title="4-Sell"] {
+	color: red;
+	font-weight: bolder;
+}
+
+div[title=F],
+div[title="5-SS"] {
+	color: red;
+	font-weight: bolder;
+}
+
+div {
+	font-size: 16px;
+}

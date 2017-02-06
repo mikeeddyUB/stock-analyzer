@@ -1,0 +1,864 @@
+ticker,grade,name,value,growth,momntm,VGM,rating,price,dividend amt,dividend pcnt
+LFGR,Leaf Group Ltd. (LFGR),D Sell,F,F,B,F,3-Hold,$7.40,$0.00,0.00%
+AVAL,Grupo Aval Acciones y Valores S.A. (AVAL),D Sell,A,F,B,B,2-Buy,$8.55,$0.39,4.56%
+DGX,Quest Diagnostics Incorporated (DGX),B+ Buy,B,B,D,B,3-Hold,$93.31,$1.80,1.93%
+AUY,Yamana Gold Inc. (AUY),D+ Sell,C,B,F,C,3-Hold,$3.40,$0.02,0.59%
+LII,Lennox International Inc. (LII),B- Buy,C,A,D,B,2-Buy,$157.25,$1.72,1.09%
+VAR,Varian Medical Systems Inc. (VAR),B- Buy,B,D,A,B,4-Sell,$79.78,$0.00,0.00%
+WU,Western Union Company (The) (WU),B Buy,B,C,D,B,3-Hold,$19.97,$0.64,3.20%
+TRV,The Travelers Companies Inc. (TRV),A- Buy,A,F,F,C,3-Hold,$117.78,$2.68,2.28%
+EEP,Enbridge Energy L.P. (EEP),C Hold,A,C,D,B,3-Hold,$18.85,$2.33,12.37%
+TNC,Tennant Company (TNC),B Buy,D,B,D,C,3-Hold,$70.95,$0.84,1.18%
+UCP,UCP Inc. (UCP),C- Hold,C,D,C,D,3-Hold,$10.80,$0.00,0.00%
+WAB,Westinghouse Air Brake Technologies Corporation (WAB),B Buy,C,D,F,D,2-Buy,$87.58,$0.40,0.46%
+RENN,Renren Inc. (RENN),D Sell,F,D,B,F,3-Hold,$1.62,$0.00,0.00%
+AG,First Majestic Silver Corp. (AG),D+ Sell,F,A,F,D,4-Sell,$9.96,$0.00,0.00%
+RLH,Red Lion Hotels Corporation (RLH),C Hold,C,A,A,A,4-Sell,$8.05,$0.00,0.00%
+ALG,Alamo Group Inc. (ALG),A Buy,B,A,F,A,3-Hold,$77.07,$0.40,0.52%
+VSI,Vitamin Shoppe Inc (VSI),C Hold,A,A,F,A,3-Hold,$22.70,$0.00,0.00%
+ALB,Albemarle Corporation (ALB),A- Buy,D,B,B,C,2-Buy,$94.27,$1.22,1.29%
+APD,Air Products and Chemicals Inc. (APD),B Buy,C,B,A,B,4-Sell,$140.16,$3.44,2.45%
+TWI,Titan International Inc. (TWI),D+ Sell,C,A,A,A,2-Buy,$12.92,$0.02,0.15%
+WAIR,Wesco Aircraft Holdings Inc. (WAIR),C+ Hold,B,A,C,A,4-Sell,$15.30,$0.00,0.00%
+AMG,Affiliated Managers Group Inc. (AMG),C+ Hold,B,D,F,C,3-Hold,$158.13,$0.00,0.00%
+AAC,AAC Holdings Inc. (AAC),C- Hold,B,F,D,D,3-Hold,$8.17,$0.00,0.00%
+AYI,Acuity Brands Inc (AYI),B Buy,D,B,D,D,4-Sell,$206.35,$0.52,0.25%
+PZN,Pzena Investment Management Inc (PZN),B Buy,D,B,A,B,1-SB,$9.76,$0.12,1.23%
+CFG,Citizens Financial Group Inc. (CFG),B- Buy,B,D,A,C,2-Buy,$36.79,$0.56,1.52%
+SNE,Sony Corp Ord (SNE),C Hold,B,D,A,C,5-SS,$31.66,$0.06,0.18%
+MTN,Vail Resorts Inc. (MTN),B Buy,F,C,F,F,3-Hold,$174.20,$3.24,1.86%
+MTH,Meritage Corporation (MTH),C+ Hold,B,A,C,A,4-Sell,$35.05,$0.00,0.00%
+VJET,voxeljet AG (VJET),D Sell,F,F,F,F,3-Hold,$3.33,$0.00,0.00%
+LAD,Lithia Motors Inc. (LAD),B Buy,A,A,A,A,3-Hold,$99.35,$1.00,1.01%
+DPLO,Diplomat Pharmacy Inc. (DPLO),D Sell,B,B,D,A,3-Hold,$15.26,$0.00,0.00%
+HY,Hyster-Yale Materials Handling Inc. (HY),C Hold,A,C,A,A,3-Hold,$60.70,$1.18,1.94%
+ICL,Israel Chemicals Shs (ICL),D+ Sell,A,B,D,A,3-Hold,$4.53,$0.19,4.15%
+CNA,CNA Financial Corporation (CNA),B+ Buy,B,C,F,C,1-SB,$42.39,$1.00,2.36%
+ECA,Encana Corporation (ECA),D+ Sell,F,C,C,D,3-Hold,$12.54,$0.06,0.48%
+SCL,Stepan Company (SCL),B Buy,B,A,C,A,3-Hold,$77.91,$0.82,1.05%
+CHU,China Unicom (Hong Kong) Ltd (CHU),D+ Sell,B,F,F,D,5-SS,$11.94,$0.23,1.96%
+SPB,Spectrum Brands Holdings Inc. (SPB),A- Buy,C,B,B,B,2-Buy,$132.76,$1.52,1.14%
+ABEV,Ambev S.A. (ABEV),B- Buy,D,F,B,F,4-Sell,$5.49,$0.00,0.00%
+VET,Vermilion Energy Inc. (VET),D+ Sell,D,D,D,F,3-Hold,$40.97,$1.92,4.69%
+CAL,Caleres Inc. (CAL),B Buy,A,C,D,B,4-Sell,$30.66,$0.28,0.91%
+CODI,Compass Diversified Holdings (CODI),B Buy,B,D,D,C,3-Hold,$17.70,$1.44,8.14%
+SEM,Select Medical Holdings Corporation (SEM),B- Buy,A,A,A,A,5-SS,$12.80,$0.00,0.00%
+ABX,Barrick Gold Corporation (ABX),C Hold,C,A,F,C,3-Hold,$18.93,$0.08,0.42%
+GEL,Genesis Energy L.P. (GEL),C Hold,C,B,A,B,3-Hold,$35.55,$2.84,7.99%
+EURN,Euronav NV (EURN),D+ Sell,C,D,C,D,5-SS,$7.80,$1.10,14.10%
+ABB,ABB Ltd (ABB),B- Buy,B,C,B,B,1-SB,$23.63,$0.73,3.09%
+RLJ,RLJ Lodging Trust (RLJ),B- Buy,C,D,C,D,5-SS,$23.26,$1.32,5.67%
+MTZ,MasTec Inc. (MTZ),C+ Hold,B,A,F,B,2-Buy,$38.90,$0.00,0.00%
+AI,Arlington Asset Investment Corp (AI),B- Buy,C,F,B,D,3-Hold,$15.27,$2.50,16.37%
+TLLP,Tesoro Logistics LP (TLLP),A Buy,C,B,A,B,2-Buy,$57.62,$3.64,6.32%
+TSS,Total System Services Inc. (TSS),A- Buy,C,B,B,B,2-Buy,$52.87,$0.40,0.76%
+OXY,Occidental Petroleum Corporation (OXY),C- Hold,F,F,B,F,3-Hold,$69.18,$3.04,4.39%
+FGL,Fidelity and Guaranty Life (FGL),C Hold,A,C,F,B,1-SB,$24.05,$0.26,1.08%
+AEM,Agnico Eagle Mines Limited (AEM),C Hold,D,A,F,C,3-Hold,$49.21,$0.32,0.65%
+CHMT,Chemtura Corp. (CHMT),B+ Buy,B,B,A,A,4-Sell,$33.10,$0.00,0.00%
+TREX,Trex Company Inc. (TREX),B Buy,D,A,F,C,2-Buy,$68.55,$0.00,0.00%
+SERV,ServiceMaster Global Holdings Inc. (SERV),B- Buy,C,D,C,D,4-Sell,$37.52,$0.00,0.00%
+COL,Rockwell Collins Inc. (COL),A- Buy,C,D,D,D,3-Hold,$91.02,$1.32,1.45%
+WRK,Westrock Company (WRK),C+ Hold,B,B,F,B,3-Hold,$54.33,$1.60,2.94%
+KNX,Knight Transportation Inc. (KNX),B Buy,C,A,B,B,5-SS,$32.85,$0.24,0.73%
+CRS,Carpenter Technology Corporation (CRS),C Hold,C,F,F,F,3-Hold,$43.07,$0.72,1.67%
+CHSP,Chesapeake Lodging Trust (CHSP),B Buy,B,C,C,B,2-Buy,$25.79,$1.60,6.20%
+SON,Sonoco Products Company (SON),A- Buy,C,A,A,A,4-Sell,$55.03,$1.48,2.69%
+WFC,Wells Fargo & Company (WFC),A- Buy,C,F,B,D,3-Hold,$57.27,$1.52,2.65%
+CRM,Salesforce.com Inc (CRM),C Hold,F,A,D,C,2-Buy,$80.21,$0.00,0.00%
+CWT,California Water  Service Group Holding (CWT),A- Buy,C,C,C,C,3-Hold,$34.00,$0.72,2.12%
+EME,EMCOR Group Inc. (EME),A- Buy,B,B,C,B,3-Hold,$70.18,$0.32,0.46%
+WNC,Wabash National Corporation (WNC),B- Buy,A,C,D,B,1-SB,$21.14,$0.24,1.14%
+CLS,Celestica Inc. (CLS),B+ Buy,A,A,B,A,3-Hold,$13.67,$0.00,0.00%
+RYI,Ryerson Holding Corporation (RYI),D Sell,A,B,B,A,3-Hold,$10.55,$0.00,0.00%
+ATHM,Autohome Inc. (ATHM),C+ Hold,C,C,F,C,3-Hold,$32.01,$0.00,0.00%
+MTX,Minerals Technologies Inc. (MTX),B Buy,B,D,B,B,3-Hold,$80.00,$0.20,0.25%
+BKS,Barnes & Noble Inc. (BKS),C Hold,A,A,F,A,2-Buy,$10.15,$0.60,5.91%
+CUBI,Customers Bancorp Inc (CUBI),C+ Hold,F,F,C,F,1-SB,$34.28,$0.00,0.00%
+WLK,Westlake Chemical Corporation (WLK),B- Buy,B,D,A,C,5-SS,$63.57,$0.76,1.20%
+VMW,Vmware Inc. (VMW),B- Buy,C,C,D,C,3-Hold,$88.95,$0.00,0.00%
+NEWR,New Relic Inc. (NEWR),D Sell,F,D,F,F,3-Hold,$37.45,$0.00,0.00%
+AIG,American International Group Inc. (AIG),B- Buy,B,C,D,C,3-Hold,$64.94,$1.28,1.97%
+HOV,Hovnanian Enterprises Inc (HOV),C- Hold,A,A,D,A,5-SS,$2.37,$0.00,0.00%
+CMCM,Cheetah Mobile Inc. (CMCM),D+ Sell,D,D,F,F,3-Hold,$10.21,$0.00,0.00%
+HXL,Hexcel Corporation (HXL),A- Buy,B,A,C,B,3-Hold,$51.04,$0.44,0.86%
+SYF,Synchrony Financial (SYF),B Buy,A,D,D,C,3-Hold,$36.51,$0.52,1.42%
+CR,Crane Company (CR),C+ Hold,B,B,A,A,3-Hold,$75.36,$1.32,1.75%
+CSV,Carriage Services Inc. (CSV),B Buy,B,C,B,A,4-Sell,$26.47,$0.20,0.76%
+ECL,Ecolab Inc. (ECL),B Buy,D,B,D,C,4-Sell,$120.75,$1.48,1.23%
+CLDT,Chatham Lodging Trust (REIT) (CLDT),B- Buy,B,C,B,B,3-Hold,$20.46,$1.32,6.45%
+TYL,Tyler Technologies Inc. (TYL),B Buy,D,A,A,B,3-Hold,$145.55,$0.00,0.00%
+CVG,Convergys Corporation (CVG),B Buy,A,B,A,A,4-Sell,$25.16,$0.36,1.43%
+HVT,Haverty Furniture Companies Inc. (HVT),B Buy,A,A,B,A,4-Sell,$21.75,$0.48,2.21%
+ITG,Investment Technology Group Inc. (ITG),C+ Hold,C,F,A,D,2-Buy,$20.28,$0.28,1.38%
+IGT,International Game Technology (IGT),D Sell,A,D,D,B,4-Sell,$27.03,$0.80,2.96%
+STAG,Stag Industrial Inc. (STAG),C Hold,D,C,C,D,3-Hold,$23.71,$1.40,5.90%
+CLI,Mack-Cali Realty Corporation (CLI),C Hold,D,D,B,D,3-Hold,$28.05,$0.60,2.14%
+ABR,Arbor Realty Trust (ABR),C+ Hold,B,B,C,A,3-Hold,$7.40,$0.64,8.65%
+FPI,Farmland Partners Inc. (FPI),D Sell,F,F,A,F,3-Hold,$11.38,$0.51,4.48%
+KOP,Koppers Holdings Inc. (KOP),C Hold,B,A,D,A,3-Hold,$42.45,$0.00,0.00%
+X,United States Steel Corporation (X),C- Hold,B,B,A,A,1-SB,$33.78,$0.20,0.59%
+SF,Stifel Financial Corporation (SF),B- Buy,B,B,A,A,2-Buy,$53.53,$0.00,0.00%
+OA,Orbital ATK Inc. (OA),C Hold,B,D,B,C,3-Hold,$88.13,$1.20,1.36%
+TAC,TransAlta Corporation (TAC),D Sell,A,A,A,A,2-Buy,$5.95,$0.12,2.01%
+LHO,LaSalle Hotel Properties (LHO),B Buy,B,C,C,B,2-Buy,$30.42,$1.80,5.92%
+APLE,Apple Hospitality REIT Inc. (APLE),C Hold,C,C,F,D,2-Buy,$19.94,$1.20,6.02%
+BURL,Burlington Stores Inc. (BURL),B- Buy,B,A,C,A,3-Hold,$82.91,$0.00,0.00%
+TSE,Trinseo S.A. (TSE),B- Buy,A,A,F,A,3-Hold,$68.50,$1.20,1.75%
+INVN,InvenSense Inc. (INVN),C- Hold,F,C,A,C,3-Hold,$12.33,$0.00,0.00%
+OMC,Omnicom Group Inc. (OMC),B+ Buy,C,D,D,D,4-Sell,$85.70,$2.20,2.57%
+NBR,Nabors Industries Ltd. (NBR),C Hold,C,F,F,F,2-Buy,$16.21,$0.24,1.48%
+COG,Cabot Oil & Gas Corporation (COG),D+ Sell,D,F,A,D,3-Hold,$21.43,$0.08,0.37%
+AWH,Allied World Assurance Company Holdings AG (AWH),B Buy,D,C,B,D,5-SS,$53.30,$1.04,1.95%
+GPC,Genuine Parts Company (GPC),B Buy,C,B,B,B,4-Sell,$97.14,$2.63,2.71%
+FRC,FIRST REPUBLIC BANK (FRC),A+ Buy,D,C,D,D,2-Buy,$94.98,$0.64,0.67%
+DVA,DaVita HealthCare Partners Inc. (DVA),C+ Hold,A,B,D,A,3-Hold,$65.32,$0.00,0.00%
+SJI,South Jersey Industries Inc. (SJI),B Buy,C,C,F,D,1-SB,$33.36,$1.09,3.27%
+FLO,Flowers Foods Inc. (FLO),B Buy,C,B,D,B,4-Sell,$20.24,$0.64,3.16%
+D,Dominion Resources Inc. (D),B Buy,D,B,A,B,4-Sell,$71.70,$2.80,3.91%
+SJW,SJW Corporation (SJW),A- Buy,C,B,D,C,3-Hold,$50.65,$0.87,1.72%
+RMP,Rice Midstream Partners LP (RMP),C+ Hold,D,B,F,C,1-SB,$25.31,$0.95,3.75%
+MTB,M&T Bank Corporation (MTB),A Buy,D,B,B,C,2-Buy,$163.89,$2.80,1.71%
+TRGP,Targa Resources Inc. (TRGP),C- Hold,D,F,D,F,3-Hold,$60.90,$3.64,5.98%
+NVO,Novo Nordisk A/S (NVO),C Hold,B,A,A,A,3-Hold,$34.08,$1.03,3.02%
+DK,Delek US Holdings Inc. (DK),D Sell,B,C,B,B,3-Hold,$22.27,$0.60,2.69%
+MTRN,Materion Corporation (MTRN),B- Buy,B,C,A,A,3-Hold,$39.00,$0.38,0.97%
+ES,Eversource Energy (ES),A- Buy,C,C,B,B,3-Hold,$55.72,$1.78,3.19%
+COP,ConocoPhillips (COP),D+ Sell,D,C,B,C,3-Hold,$50.43,$1.00,1.98%
+BSM,Black Stone Minerals L.P. (BSM),C Hold,C,C,F,D,3-Hold,$18.78,$1.15,6.12%
+ITW,Illinois Tool Works Inc. (ITW),A- Buy,D,B,A,B,2-Buy,$127.21,$2.60,2.04%
+PDS,Precision Drilling Corporation (PDS),D Sell,C,F,C,F,2-Buy,$5.80,$0.00,0.00%
+CPB,Campbell Soup Company (CPB),A Buy,D,A,B,B,2-Buy,$63.28,$1.40,2.21%
+RNR,RenaissanceRe Holdings Ltd. (RNR),A Buy,D,F,F,F,3-Hold,$141.15,$1.24,0.88%
+RGA,Reinsurance Group of America Incorporated (RGA),A- Buy,A,F,A,C,3-Hold,$127.09,$1.64,1.29%
+FGP,Ferrellgas Partners L.P. (FGP),D Sell,A,A,F,A,4-Sell,$7.62,$0.40,5.25%
+CLH,Clean Harbors Inc. (CLH),C- Hold,C,D,A,C,2-Buy,$55.17,$0.00,0.00%
+ENV,Envestnet Inc (ENV),C- Hold,F,B,D,C,1-SB,$38.30,$0.00,0.00%
+PE,Parsley Energy Inc. (PE),C Hold,F,A,A,B,3-Hold,$34.80,$0.00,0.00%
+ELP,Companhia Paranaense de Energia (COPEL) (ELP),C+ Hold,A,F,D,C,3-Hold,$10.44,$0.13,1.27%
+HEI,Heico Corporation (HEI),A- Buy,D,B,A,C,3-Hold,$77.23,$0.18,0.23%
+EGO,Eldorado Gold Corporation (EGO),D+ Sell,F,B,D,D,3-Hold,$3.60,$0.00,0.00%
+DQ,DAQO New Energy Corp. (DQ),C Hold,A,B,D,A,3-Hold,$24.51,$0.00,0.00%
+CLNS,NorthStar Asset Management Group Inc. (CLNS),C+ Hold,D,B,D,C,1-SB,$14.34,$0.40,2.79%
+CNX,CONSOL Energy Inc. (CNX),D+ Sell,B,C,A,A,2-Buy,$17.16,$0.01,0.06%
+INST,Instructure Inc. (INST),D Sell,F,A,C,C,3-Hold,$22.55,$0.00,0.00%
+WUBA,58.com Inc. (WUBA),D+ Sell,F,F,B,F,3-Hold,$28.00,$0.00,0.00%
+KMX,CarMax Inc (KMX),B Buy,C,D,C,D,3-Hold,$65.69,$0.00,0.00%
+PH,Parker-Hannifin Corporation (PH),B Buy,C,B,A,B,2-Buy,$150.21,$2.52,1.68%
+DHI,D.R. Horton Inc. (DHI),B Buy,A,D,A,B,2-Buy,$29.89,$0.40,1.34%
+AEE,Ameren Corporation (AEE),A+ Buy,B,B,F,B,2-Buy,$52.69,$1.76,3.34%
+DDR,DDR Corp. (DDR),C- Hold,D,F,F,F,3-Hold,$15.08,$0.76,5.04%
+ANW,Aegean Marine Petroleum Network Inc. (ANW),B- Buy,A,A,D,A,4-Sell,$11.30,$0.08,0.71%
+LEJU,Leju Holdings Limited (LEJU),D Sell,C,C,F,D,3-Hold,$3.97,$0.00,0.00%
+FICO,Fair Isaac Corporation (FICO),A+ Buy,D,A,F,C,3-Hold,$124.54,$0.08,0.06%
+GNW,Genworth Financial Inc (GNW),D+ Sell,A,D,B,B,3-Hold,$3.60,$0.00,0.00%
+CINR,Ciner Resources LP (CINR),A Buy,A,B,C,A,3-Hold,$31.17,$2.27,7.28%
+EGP,EastGroup Properties Inc. (EGP),B- Buy,D,C,A,D,3-Hold,$71.05,$2.48,3.49%
+VEEV,Veeva Systems Inc. (VEEV),B Buy,F,A,D,C,3-Hold,$43.62,$0.00,0.00%
+HTH,Hilltop Holdings Inc. (HTH),C+ Hold,C,F,F,F,3-Hold,$27.46,$0.24,0.87%
+WGO,Winnebago Industries Inc. (WGO),B Buy,B,B,F,B,3-Hold,$32.45,$0.40,1.23%
+MTW,Manitowoc Company Inc. (The) (MTW),D Sell,D,F,A,D,3-Hold,$6.70,$0.00,0.00%
+APH,Amphenol Corporation (APH),B+ Buy,D,A,B,B,4-Sell,$67.46,$0.64,0.95%
+WWE,World Wrestling Entertainment Inc. (WWE),C+ Hold,D,C,C,D,3-Hold,$19.70,$0.48,2.44%
+NI,NiSource Inc (NI),B- Buy,C,F,B,F,4-Sell,$22.26,$0.66,2.96%
+MUSA,Murphy USA Inc. (MUSA),B Buy,A,A,F,A,5-SS,$66.29,$0.00,0.00%
+TREC,Trecora Resources (TREC),B- Buy,B,C,D,B,4-Sell,$12.40,$0.00,0.00%
+RST,Rosetta Stone (RST),D+ Sell,F,A,A,B,3-Hold,$8.04,$0.00,0.00%
+CNHI,CNH Industrial N.V. (CNHI),D+ Sell,A,B,A,A,3-Hold,$9.27,$0.15,1.59%
+MTOR,Meritor Inc. (MTOR),C Hold,A,F,B,B,2-Buy,$15.42,$0.00,0.00%
+GGB,Gerdau S.A. (GGB),D+ Sell,C,D,D,D,4-Sell,$4.03,$0.01,0.30%
+WTI,W&T Offshore Inc. (WTI),E+ Sell,C,A,B,B,2-Buy,$2.88,$0.00,0.00%
+EAT,Brinker International Inc. (EAT),C+ Hold,A,B,F,A,5-SS,$43.93,$1.36,3.10%
+IBM,International Business Machines Corporation (IBM),C+ Hold,B,C,C,B,3-Hold,$175.82,$5.60,3.19%
+ATW,Atwood Oceanics Inc. (ATW),C- Hold,A,F,A,B,3-Hold,$12.65,$0.00,0.00%
+WRB,W.R. Berkley Corporation (WRB),A- Buy,B,D,C,C,3-Hold,$67.87,$0.52,0.77%
+SQ,Square Inc. (SQ),D+ Sell,F,A,C,C,3-Hold,$14.28,$0.00,0.00%
+TI,Telecom Italia S.P.A. (TI),D+ Sell,A,B,C,A,5-SS,$8.99,$0.00,0.00%
+SHOP,Shopify Inc. (SHOP),D+ Sell,F,F,F,F,3-Hold,$52.12,$0.00,0.00%
+SEE,Sealed Air Corporation (SEE),B- Buy,C,B,D,B,3-Hold,$49.67,$0.64,1.29%
+UGP,Ultrapar Participacoes S.A. (UGP),B- Buy,B,C,D,B,3-Hold,$21.32,$0.46,2.17%
+RLI,RLI Corp. (RLI),A- Buy,D,C,C,D,4-Sell,$60.54,$0.80,1.32%
+EVH,Evolent Health Inc (EVH),D Sell,D,D,F,F,4-Sell,$18.25,$0.00,0.00%
+ORI,Old Republic International Corporation (ORI),B Buy,B,A,D,A,2-Buy,$20.98,$0.75,3.57%
+AWR,American States Water Company (AWR),A- Buy,D,D,B,D,3-Hold,$44.09,$0.97,2.20%
+UDR,United Dominion Realty Trust Inc. (UDR),B Buy,F,D,C,F,4-Sell,$34.66,$1.18,3.40%
+IFF,Internationa Flavors & Fragrances Inc. (IFF),B Buy,D,C,A,C,4-Sell,$117.98,$2.56,2.17%
+SWX,Southwest Gas Corporation (SWX),B Buy,B,B,F,C,2-Buy,$81.89,$1.80,2.20%
+SFUN,SouFun Holdings Limited (SFUN),D+ Sell,D,D,A,D,3-Hold,$3.69,$0.00,0.00%
+DY,Dycom Industries Inc. (DY),A- Buy,B,B,C,B,3-Hold,$78.94,$0.00,0.00%
+VVC,Vectren Corporation (VVC),A- Buy,B,B,F,C,3-Hold,$55.35,$1.68,3.04%
+JKS,JinkoSolar Holding Company Limited (JKS),C- Hold,A,B,B,A,3-Hold,$14.47,$0.00,0.00%
+LH,Laboratory Corporation of America Holdings (LH),B+ Buy,A,C,F,C,4-Sell,$137.69,$0.00,0.00%
+HTA,Healthcare Trust of America Inc. (HTA),B- Buy,F,D,C,F,4-Sell,$29.38,$1.20,4.08%
+SRI,Stoneridge Inc. (SRI),B Buy,A,A,B,A,3-Hold,$16.63,$0.00,0.00%
+GRA,W.R. Grace & Co. (GRA),C+ Hold,C,B,C,C,3-Hold,$71.47,$0.68,0.95%
+FIX,Comfort Systems USA Inc. (FIX),A- Buy,B,B,D,B,3-Hold,$34.40,$0.28,0.81%
+PSB,PS Business Parks Inc. (PSB),A- Buy,D,C,A,C,3-Hold,$112.67,$3.00,2.66%
+WLKP,Westlake Chemical Partners LP (WLKP),C Hold,A,D,A,B,3-Hold,$24.95,$1.34,5.38%
+GPRK,Geopark Ltd (GPRK),D Sell,C,A,D,B,3-Hold,$4.89,$0.00,0.00%
+IAG,Iamgold Corporation (IAG),D Sell,F,A,F,D,1-SB,$4.73,$0.00,0.00%
+ROL,Rollins Inc. (ROL),B Buy,F,A,D,C,2-Buy,$35.57,$0.40,1.12%
+TOO,Teekay Offshore Partners L.P. (TOO),D Sell,A,C,D,A,3-Hold,$5.99,$0.44,7.35%
+DST,DST Systems Inc. (DST),B- Buy,B,D,D,C,3-Hold,$116.41,$1.32,1.13%
+BVN,Buenaventura Mining Company Inc. (BVN),C- Hold,C,C,D,C,3-Hold,$13.70,$0.03,0.21%
+ARE,Alexandria Real Estate Equities Inc. (ARE),C Hold,F,D,A,D,3-Hold,$110.64,$3.32,3.00%
+NUE,Nucor Corporation (NUE),B Buy,B,B,C,B,3-Hold,$57.35,$1.51,2.63%
+NJR,NewJersey Resources Corporation (NJR),A- Buy,D,F,C,F,4-Sell,$37.90,$1.02,2.69%
+CL,Colgate-Palmolive Company (CL),C Hold,F,B,D,D,5-SS,$65.97,$1.56,2.36%
+TEO,Telecom Argentina Stet - France Telecom S.A. (TEO),C Hold,B,D,B,C,5-SS,$22.70,$0.65,2.86%
+GNC,GNC Holdings Inc. (GNC),C- Hold,A,D,D,B,3-Hold,$9.02,$0.80,8.87%
+RICE,Rice Energy Inc. (RICE),D+ Sell,C,B,A,B,3-Hold,$21.02,$0.00,0.00%
+ATO,Atmos Energy Corporation (ATO),B+ Buy,C,C,D,C,3-Hold,$75.88,$1.80,2.37%
+ELLI,Ellie Mae Inc. (ELLI),B Buy,D,A,D,C,3-Hold,$87.80,$0.00,0.00%
+BMI,Badger Meter Inc. (BMI),A Buy,D,B,B,C,3-Hold,$39.20,$0.46,1.17%
+GLF,GulfMark Offshore Inc. (GLF),D Sell,F,F,A,F,4-Sell,$1.55,$0.00,0.00%
+IVC,Invacare Corporation (IVC),D+ Sell,D,F,D,F,5-SS,$11.50,$0.05,0.43%
+ETP,ENERGY TRANSFER PARTNERS (ETP),C Hold,C,A,C,B,5-SS,$39.40,$4.22,10.71%
+GG,Goldcorp Inc. (GG),D+ Sell,F,B,D,F,5-SS,$16.28,$0.08,0.49%
+TDW,Tidewater Inc. (TDW),D Sell,B,F,C,D,4-Sell,$2.06,$0.00,0.00%
+YUM,Yum! Brands Inc. (YUM),C+ Hold,C,A,F,C,3-Hold,$66.23,$1.20,1.81%
+NWN,Northwest Natural Gas Company (NWN),B Buy,C,F,F,F,3-Hold,$59.25,$1.88,3.17%
+AVB,AvalonBay Communities Inc. (AVB),A Buy,F,D,B,F,3-Hold,$173.53,$5.40,3.11%
+IRS,IRSA Inversiones Y Representaciones S.A. (IRS),D+ Sell,C,A,F,B,3-Hold,$22.97,$0.00,0.00%
+KEY,KeyCorp (KEY),B Buy,D,F,A,D,3-Hold,$18.37,$0.34,1.85%
+UIS,Unisys Corporation (UIS),E+ Sell,A,C,F,B,5-SS,$13.35,$0.00,0.00%
+UHS,Universal Health Services Inc. (UHS),B Buy,A,A,D,A,2-Buy,$113.85,$0.40,0.35%
+KRG,Kite Realty Group Trust (KRG),C- Hold,C,B,F,D,4-Sell,$23.95,$1.21,5.05%
+TOL,Toll Brothers Inc. (TOL),B- Buy,B,D,D,C,3-Hold,$31.67,$0.00,0.00%
+PLNT,Planet Fitness Inc. (PLNT),C- Hold,D,D,F,F,3-Hold,$21.39,$0.00,0.00%
+USM,United States Cellular Corporation (USM),C+ Hold,B,B,F,B,4-Sell,$43.18,$0.00,0.00%
+FUN,Cedar Fair L.P. (FUN),B Buy,B,A,F,A,2-Buy,$62.19,$3.42,5.50%
+MTG,MGIC Investment Corporation (MTG),C+ Hold,B,C,B,B,3-Hold,$11.09,$0.00,0.00%
+PHH,PHH Corp (PHH),D+ Sell,C,A,F,B,4-Sell,$14.83,$0.00,0.00%
+ASC,Ardmore Shipping Corporation (ASC),C Hold,A,D,D,C,3-Hold,$7.15,$0.40,5.59%
+NWY,New York & Company Inc. (NWY),D+ Sell,B,C,C,B,3-Hold,$2.20,$0.00,0.00%
+TRP,TransCanada Corporation (TRP),C Hold,D,C,A,C,3-Hold,$47.95,$1.68,3.51%
+AZO,AutoZone Inc. (AZO),D+ Sell,A,A,B,A,2-Buy,$724.72,$0.00,0.00%
+NEE,NextEra Energy Inc. (NEE),A- Buy,C,D,A,D,2-Buy,$124.21,$3.48,2.80%
+HDB,HDFC Bank Limited (HDB),B Buy,F,D,F,F,3-Hold,$71.32,$0.40,0.57%
+INN,Summit Hotel Properties Inc. (INN),A- Buy,B,D,B,B,2-Buy,$15.98,$0.65,4.07%
+ERF,Enerplus Corporation (ERF),D Sell,D,C,F,D,4-Sell,$9.30,$0.09,0.96%
+PBF,PBF Energy Inc. (PBF),C Hold,A,F,F,C,3-Hold,$23.15,$1.20,5.18%
+RYAM,Rayonier Advanced Materials Inc. (RYAM),D Sell,A,D,B,B,5-SS,$13.78,$0.28,2.03%
+CMP,Compass Minerals International Inc. (CMP),B- Buy,C,F,A,D,3-Hold,$82.00,$2.78,3.39%
+DNR,Denbury Resources Inc. (DNR),D- Sell,B,F,B,D,1-SB,$3.54,$0.00,0.00%
+SXC,SunCoke Energy Inc. (SXC),C- Hold,A,A,F,A,3-Hold,$9.09,$0.00,0.00%
+RTEC,Rudolph Technologies Inc. (RTEC),B Buy,C,A,A,A,2-Buy,$22.85,$0.00,0.00%
+UTL,UNITIL Corporation (UTL),A- Buy,C,F,B,D,3-Hold,$45.90,$1.42,3.09%
+ARNC,Arconic Inc. (ARNC),C Hold,A,A,A,A,2-Buy,$25.90,$0.24,0.93%
+NVRO,Nevro Corp. (NVRO),D+ Sell,F,D,C,D,3-Hold,$93.22,$0.00,0.00%
+FRO,Frontline Ltd. (FRO),E+ Sell,B,B,A,A,4-Sell,$6.86,$0.40,5.83%
+ABM,ABM Industries Incorporated (ABM),B Buy,C,B,A,B,3-Hold,$40.86,$0.68,1.66%
+VLO,Valero Energy Corporation (VLO),B Buy,A,C,F,B,3-Hold,$65.51,$2.40,3.66%
+UFS,Domtar Corporation (UFS),B Buy,A,C,C,B,3-Hold,$43.51,$1.66,3.82%
+IVZ,Invesco PLC (IVZ),B- Buy,C,F,F,F,3-Hold,$30.90,$1.12,3.62%
+MSL,MidSouth Bancorp (MSL),C Hold,A,F,F,C,2-Buy,$14.40,$0.36,2.50%
+FF,FutureFuel Corp. (FF),B Buy,A,A,C,A,3-Hold,$13.13,$0.24,1.83%
+UGI,UGI Corporation (UGI),A- Buy,B,B,C,A,3-Hold,$47.33,$0.95,2.01%
+ABG,Asbury Automotive Group Inc (ABG),B Buy,A,A,B,A,4-Sell,$64.45,$0.00,0.00%
+UFI,Unifi Inc. (UFI),B- Buy,B,C,A,A,5-SS,$26.93,$0.00,0.00%
+AEP,American Electric Power Company Inc. (AEP),B Buy,C,D,F,D,3-Hold,$64.03,$2.36,3.69%
+CHCT,Community Healthcare Trust Incorporated (CHCT),C Hold,F,C,F,F,3-Hold,$22.70,$1.54,6.78%
+TGI,Triumph Group Inc. (TGI),D Sell,D,F,B,F,5-SS,$28.90,$0.16,0.55%
+SSI,Stage Stores Inc. (SSI),D+ Sell,C,F,A,D,4-Sell,$2.60,$0.60,23.08%
+KYO,Kyocera Corporation (KYO),B- Buy,B,B,D,B,3-Hold,$53.71,$0.82,1.54%
+TTC,Toro Company (The) (TTC),A Buy,C,A,C,A,2-Buy,$59.05,$0.70,1.19%
+FR,First Industrial Realty Trust Inc. (FR),B Buy,D,D,B,D,4-Sell,$26.23,$0.76,2.90%
+XYL,Xylem Inc. (XYL),B Buy,C,B,F,C,3-Hold,$49.25,$0.62,1.26%
+CLD,Cloud Peak Energy Inc (CLD),D Sell,A,C,A,A,3-Hold,$5.41,$0.00,0.00%
+SKX,Skechers U.S.A. Inc. (SKX),B- Buy,A,C,A,A,4-Sell,$23.51,$0.00,0.00%
+SJR,Shaw Communications Inc. (SJR),C+ Hold,C,D,B,C,2-Buy,$21.62,$0.88,4.08%
+AVX,AVX Corporation (AVX),A- Buy,B,A,A,A,4-Sell,$16.28,$0.44,2.70%
+VLY,Valley National Bancorp (VLY),B+ Buy,D,D,B,D,2-Buy,$12.13,$0.44,3.63%
+UNM,Unum Group (UNM),B+ Buy,A,F,B,C,2-Buy,$46.86,$0.80,1.71%
+HTZ,Hertz Global Holdings Inc (HTZ),D+ Sell,A,A,F,A,3-Hold,$21.35,$0.00,0.00%
+EPAM,EPAM Systems Inc. (EPAM),B Buy,C,A,D,B,4-Sell,$65.60,$0.00,0.00%
+OME,Omega Protein Corporation (OME),B+ Buy,A,A,B,A,3-Hold,$25.95,$0.00,0.00%
+SPH,Suburban Propane Partners L.P. (SPH),C Hold,D,B,D,C,5-SS,$29.98,$3.55,11.84%
+SLB,Schlumberger N.V. (SLB),C Hold,D,D,B,D,3-Hold,$82.50,$2.00,2.42%
+GTS,Triple-S Management Corporation (GTS),C Hold,A,B,C,A,3-Hold,$20.00,$0.00,0.00%
+DM,Dominion Midstream Partners LP (DM),C- Hold,B,B,B,B,1-SB,$33.05,$1.04,3.15%
+ECOM,ChannelAdvisor Corporation (ECOM),D Sell,F,A,B,B,3-Hold,$14.20,$0.00,0.00%
+SRC,Spirit Realty Capital Inc. (SRC),B- Buy,D,C,A,C,4-Sell,$10.54,$0.72,6.83%
+NCR,NCR Corporation (NCR),B Buy,A,B,B,A,3-Hold,$42.98,$0.00,0.00%
+PAGP,Plains Group Holdings L.P. (PAGP),C- Hold,A,C,F,B,3-Hold,$34.50,$2.20,6.38%
+USPH,U.S. Physical Therapy Inc. (USPH),A- Buy,C,B,C,C,3-Hold,$71.45,$0.68,0.95%
+EVC,Entravision Communications Corporation (EVC),C+ Hold,C,C,F,D,3-Hold,$5.35,$0.13,2.34%
+RSO,Resource Capital Corp. (RSO),D+ Sell,F,F,D,F,3-Hold,$8.54,$0.20,2.34%
+BIG,Big Lots Inc. (BIG),B- Buy,B,F,D,D,3-Hold,$50.51,$0.84,1.66%
+BOX,Box Inc. (BOX),D- Sell,F,C,F,F,3-Hold,$17.67,$0.00,0.00%
+APAM,Artisan Partners Asset Management Inc. (APAM),C Hold,C,B,F,B,5-SS,$29.30,$2.40,8.19%
+CHMI,Cherry Hill Mortgage Investment Corporation (CHMI),C+ Hold,C,B,B,B,5-SS,$18.08,$1.96,10.84%
+RTN,Raytheon Company (RTN),A Buy,C,B,B,B,3-Hold,$146.89,$2.93,1.99%
+CRY,CryoLife Inc. (CRY),B Buy,D,A,D,C,3-Hold,$18.95,$0.00,0.00%
+UAA,Under Armour Inc. (UAA),C Hold,C,A,C,B,4-Sell,$20.70,$0.00,0.00%
+RHP,Ryman Hospitality Properties Inc. (RHP),B+ Buy,B,C,C,B,3-Hold,$62.37,$3.00,4.81%
+VER,VEREIT Inc. (VER),C- Hold,C,C,B,C,3-Hold,$8.47,$0.55,6.49%
+CRK,Comstock Resources Inc. (CRK),D- Sell,F,C,A,C,3-Hold,$12.46,$0.00,0.00%
+AXTA,Axalta Coating Systems Ltd. (AXTA),D+ Sell,C,B,F,C,3-Hold,$29.66,$0.00,0.00%
+FFG,FBL Financial Group Inc. (FFG),A Buy,B,F,B,C,3-Hold,$69.70,$1.68,2.41%
+CNNX,Cone Midstream Partners LP (CNNX),C Hold,A,B,B,A,3-Hold,$24.07,$1.09,4.53%
+AMN,AMN Healthcare Services Inc (AMN),B+ Buy,B,A,D,A,3-Hold,$37.20,$0.00,0.00%
+WLH,Lyon William Homes (WLH),C Hold,B,D,F,D,2-Buy,$17.57,$0.00,0.00%
+MUX,McEwen Mining Inc. (MUX),C Hold,F,B,D,D,3-Hold,$4.02,$0.01,0.25%
+LNT,Alliant Energy Corporation (LNT),A- Buy,C,F,D,F,3-Hold,$37.82,$1.26,3.33%
+SSTK,Shutterstock Inc. (SSTK),B- Buy,D,A,B,B,3-Hold,$53.75,$0.00,0.00%
+VRX,Valeant Pharmaceuticals International Inc. (VRX),D Sell,A,D,F,B,5-SS,$14.22,$0.00,0.00%
+TGP,Teekay LNG Partners L.P. (TGP),C Hold,B,C,B,B,4-Sell,$18.65,$0.56,3.00%
+VNO,Vornado Realty Trust (VNO),C+ Hold,F,D,C,F,3-Hold,$104.85,$2.84,2.71%
+CUBE,CubeSmart (CUBE),B Buy,D,C,D,D,3-Hold,$25.42,$1.08,4.25%
+STL,Sterling Bancorp (STL),B- Buy,F,F,B,F,2-Buy,$23.90,$0.28,1.17%
+CP,Canadian Pacific Railway Limited (CP),B Buy,C,F,D,D,3-Hold,$150.17,$1.49,0.99%
+CSU,Capital Senior Living Corporation (CSU),D+ Sell,C,D,B,D,3-Hold,$16.74,$0.00,0.00%
+MORE,Monogram Residential Trust Inc. (MORE),D+ Sell,D,C,B,D,3-Hold,$10.18,$0.30,2.95%
+DOW,Dow Chemical Company (The) (DOW),B- Buy,B,C,A,A,3-Hold,$60.21,$1.84,3.06%
+BID,Sotheby's (BID),C Hold,D,F,D,F,3-Hold,$39.65,$0.00,0.00%
+ANH,Anworth Mortgage Asset  Corporation (ANH),C Hold,D,F,B,F,3-Hold,$5.18,$0.60,11.58%
+CIM,Chimera Investment Corporation (CIM),C+ Hold,C,F,B,D,3-Hold,$17.87,$2.00,11.19%
+BWA,BorgWarner Inc. (BWA),C+ Hold,B,D,C,C,4-Sell,$40.60,$0.56,1.38%
+HNI,HNI Corporation (HNI),B Buy,B,B,C,A,3-Hold,$50.50,$1.10,2.18%
+GNL,Global Net Lease Inc. (GNL),C- Hold,D,D,C,D,3-Hold,$7.98,$0.71,8.90%
+CMRE,Costamare Inc. (CMRE),D+ Sell,A,F,D,C,4-Sell,$5.36,$0.40,7.46%
+MTD,Mettler-Toledo International Inc. (MTD),A- Buy,D,A,A,B,3-Hold,$462.67,$0.00,0.00%
+HAE,Haemonetics Corporation (HAE),C Hold,C,A,A,A,4-Sell,$41.34,$0.00,0.00%
+JNPR,Juniper Networks Inc. (JNPR),B+ Buy,A,D,F,C,3-Hold,$27.35,$0.40,1.46%
+TJX,TJX Companies Inc. (The) (TJX),A- Buy,B,B,D,B,2-Buy,$75.47,$1.04,1.38%
+GME,Gamestop Corporation (GME),C Hold,A,C,D,B,4-Sell,$24.74,$1.48,5.98%
+FTS,Fortis Inc. (FTS),D Sell,D,A,D,C,4-Sell,$32.16,$1.19,3.71%
+IDA,IDACORP Inc. (IDA),A Buy,D,C,B,C,3-Hold,$79.38,$2.20,2.77%
+WST,West Pharmaceutical Services Inc. (WST),B+ Buy,C,B,F,C,3-Hold,$86.43,$0.52,0.60%
+AEG,Aegon NV (AEG),B- Buy,A,C,D,A,4-Sell,$5.62,$0.25,4.39%
+AZN,Astrazeneca PLC (AZN),C+ Hold,C,F,D,D,4-Sell,$27.92,$1.37,4.91%
+VIV,Telefonica Brasil S.A. (VIV),C Hold,B,D,F,C,3-Hold,$15.20,$0.53,3.50%
+BHI,Baker Hughes Incorporated (BHI),C Hold,C,B,F,C,3-Hold,$61.85,$0.68,1.10%
+AOS,Smith (A.O.) Corporation (AOS),A- Buy,C,A,A,A,2-Buy,$49.36,$0.56,1.13%
+ABC,AmerisourceBergen Corporation (Holding Co) (ABC),B Buy,A,B,B,A,2-Buy,$89.28,$1.46,1.64%
+CYS,CYS Investments Inc. (CYS),C Hold,A,F,B,C,2-Buy,$7.76,$1.00,12.89%
+EVTC,Evertec Inc. (EVTC),B- Buy,B,B,B,A,3-Hold,$17.20,$0.40,2.33%
+CRR,Carbo Ceramics Inc. (CRR),D Sell,F,F,F,F,3-Hold,$15.32,$0.00,0.00%
+TLP,TransMontaigne Partners L.P. (TLP),B Buy,C,A,B,A,3-Hold,$44.83,$2.84,6.34%
+AXL,American Axle & Manufacturing Holdings Inc. (AXL),C+ Hold,A,C,B,A,3-Hold,$20.20,$0.00,0.00%
+VLP,Valero Energy Partners LP (VLP),B- Buy,D,C,F,D,3-Hold,$49.41,$1.63,3.29%
+IP,International Paper Company (IP),B Buy,A,C,C,B,3-Hold,$53.01,$1.85,3.49%
+EVA,Enviva Partners LP (EVA),C Hold,A,C,A,A,4-Sell,$26.55,$2.12,7.98%
+CMC,Commercial Metals Company (CMC),B- Buy,A,B,B,A,3-Hold,$21.16,$0.48,2.27%
+ASGN,On Assignment Inc. (ASGN),A- Buy,B,A,D,A,3-Hold,$46.92,$0.00,0.00%
+BPI,Bridgepoint Education Inc. (BPI),C- Hold,F,F,D,F,3-Hold,$10.60,$0.00,0.00%
+TWX,Time Warner Inc. (TWX),A- Buy,B,B,C,B,3-Hold,$95.87,$1.61,1.68%
+PEI,Pennsylvania Real Estate Investment Trust (PEI),C- Hold,D,D,C,F,5-SS,$17.88,$0.84,4.70%
+SQNS,Sequans Communications S.A. (SQNS),D- Sell,F,A,A,C,2-Buy,$2.49,$0.00,0.00%
+CAB,Cabela's Inc (CAB),C+ Hold,B,F,C,C,2-Buy,$54.44,$0.00,0.00%
+PKX,POSCO (PKX),B- Buy,A,A,C,A,3-Hold,$58.19,$0.26,0.44%
+PFS,Provident Financial Services Inc (PFS),A- Buy,D,F,B,F,4-Sell,$26.55,$0.72,2.71%
+VNTV,Vantiv Inc. (VNTV),A- Buy,D,C,C,D,2-Buy,$63.62,$0.00,0.00%
+FCAU,Fiat Chrysler Automobiles N.V. (FCAU),B- Buy,A,C,A,A,2-Buy,$11.03,$0.00,0.00%
+SPXC,SPX Corporation (SPXC),C- Hold,D,F,D,F,3-Hold,$25.48,$0.00,0.00%
+BKU,BankUnited Inc. (BKU),A Buy,D,C,A,C,3-Hold,$38.03,$0.84,2.21%
+CTL,CenturyLink Inc. (CTL),C+ Hold,A,D,C,B,3-Hold,$25.42,$2.16,8.50%
+WRI,Weingarten Realty Investors (WRI),B Buy,D,D,F,F,3-Hold,$35.72,$1.46,4.09%
+SJM,J.M. Smucker Company (The) (SJM),A Buy,C,C,A,C,4-Sell,$138.78,$3.00,2.16%
+GXP,Great Plains Energy Inc (GXP),A- Buy,B,B,B,A,3-Hold,$27.23,$1.10,4.04%
+LLL,L-3 Communications Holdings Inc. (LLL),B+ Buy,B,B,C,A,2-Buy,$160.12,$2.80,1.75%
+FIG,Fortress Investment Group LLC (FIG),C+ Hold,B,A,C,A,5-SS,$5.91,$0.36,6.09%
+HTGC,Hercules Capital Inc. (HTGC),B Buy,C,F,B,D,3-Hold,$14.45,$1.24,8.58%
+EPD,Enterprise Products Partners L.P. (EPD),B- Buy,D,F,B,F,3-Hold,$28.69,$1.64,5.72%
+C,Citigroup Inc. (C),B Buy,B,C,F,C,3-Hold,$57.76,$0.64,1.11%
+HUBS,HubSpot Inc. (HUBS),D Sell,F,B,D,D,3-Hold,$54.20,$0.00,0.00%
+KORS,Michael Kors Holdings Limited (KORS),C+ Hold,A,D,F,C,3-Hold,$41.02,$0.00,0.00%
+DVD,Dover Motorsports Inc. (DVD),B Buy,C,F,B,F,3-Hold,$2.30,$0.05,2.17%
+SNR,New Senior Investment Group Inc. (SNR),D Sell,B,B,F,B,4-Sell,$10.38,$1.04,10.02%
+ZAYO,Zayo Group Holdings Inc. (ZAYO),C- Hold,C,A,C,B,3-Hold,$31.58,$0.00,0.00%
+SAH,Sonic Automotive Inc. (SAH),B Buy,A,A,C,A,4-Sell,$22.90,$0.20,0.87%
+SCM,Stellus Capital Investment Corporation (SCM),B- Buy,B,D,D,D,3-Hold,$13.64,$1.36,9.97%
+HF,HFF Inc. (HF),C Hold,B,F,C,D,3-Hold,$29.93,$0.00,0.00%
+SIX,Six Flags Entertainment Corporation New (SIX),B- Buy,D,B,B,C,3-Hold,$60.69,$2.56,4.22%
+CCO,Clear Channel Outdoor Holdings Inc. (CCO),D+ Sell,D,F,D,F,5-SS,$4.90,$0.00,0.00%
+SSD,Simpson Manufacturing Company Inc. (SSD),B Buy,C,B,B,B,4-Sell,$43.42,$0.72,1.66%
+LEG,Leggett & Platt Incorporated (LEG),A- Buy,C,B,B,B,3-Hold,$48.74,$1.36,2.79%
+AGN,Allergan PLC. (AGN),C Hold,C,F,F,F,3-Hold,$230.87,$0.00,0.00%
+SR,Spire Inc. (SR),B Buy,C,F,D,F,3-Hold,$63.80,$2.10,3.29%
+SCNB,Suffolk Bancorp (SCNB),A- Buy,D,C,B,D,3-Hold,$41.77,$0.40,0.96%
+UAL,United Continental Holdings Inc. (UAL),B Buy,A,B,A,A,2-Buy,$73.06,$0.00,0.00%
+KMG,KMG Chemicals Inc. (KMG),B Buy,B,A,C,A,2-Buy,$37.81,$0.12,0.32%
+NE,Noble Corporation (NE),C- Hold,A,F,D,C,3-Hold,$7.28,$0.19,2.61%
+COH,Coach Inc. (COH),B- Buy,C,C,C,C,3-Hold,$36.77,$1.35,3.67%
+SDRL,Seadrill Limited (SDRL),D Sell,A,C,C,B,3-Hold,$1.85,$0.00,0.00%
+RUBI,The Rubicon Project Inc. (RUBI),D Sell,B,B,A,A,3-Hold,$7.84,$0.00,0.00%
+DVN,Devon Energy Corporation (DVN),D Sell,D,D,A,D,3-Hold,$46.79,$0.24,0.51%
+HAL,Halliburton Company (HAL),C- Hold,F,C,A,C,2-Buy,$56.58,$0.72,1.27%
+KT,KT Corporation (KT),C Hold,A,B,F,B,5-SS,$14.98,$0.00,0.00%
+BRFS,BRF S.A. (BRFS),C Hold,B,B,B,B,3-Hold,$14.30,$0.18,1.27%
+TKR,Timken Company (The) (TKR),C Hold,C,B,D,B,2-Buy,$44.60,$1.04,2.33%
+TDS,Telephone and Data Systems Inc. (TDS),C Hold,A,B,A,A,3-Hold,$29.70,$0.59,1.99%
+GGP,General Growth Properties Inc. (GGP),B Buy,D,F,F,F,3-Hold,$24.94,$0.88,3.53%
+AIT,Applied Industrial Technologies Inc. (AIT),B Buy,C,B,B,A,2-Buy,$61.05,$1.12,1.83%
+EPE,EP Energy Corporation (EPE),D- Sell,C,C,F,D,3-Hold,$5.74,$0.00,0.00%
+WAGE,WageWorks Inc. (WAGE),B Buy,F,A,B,C,4-Sell,$72.45,$0.00,0.00%
+TCB,TCF Financial Corporation (TCB),B Buy,A,F,F,C,3-Hold,$17.30,$0.30,1.73%
+GDOT,Green Dot Corporation (GDOT),B- Buy,B,D,A,B,3-Hold,$26.46,$0.00,0.00%
+CNI,Canadian National Railway Company (CNI),B Buy,C,C,B,C,2-Buy,$69.32,$1.12,1.61%
+LEN,Lennar Corporation (LEN),B Buy,A,A,B,A,3-Hold,$45.14,$0.16,0.35%
+ST,Sensata Technologies Holding N.V. (ST),B Buy,B,B,B,A,3-Hold,$41.64,$0.00,0.00%
+GDDY,GoDaddy Inc. (GDDY),C- Hold,C,B,D,B,3-Hold,$36.07,$0.00,0.00%
+TIF,Tiffany & Co. (TIF),B- Buy,C,C,D,C,3-Hold,$80.47,$1.80,2.24%
+STN,SPDR MSCI Europe Energy UCITS ETF (STN),B- Buy,C,D,C,C,3-Hold,$27.05,$0.33,1.24%
+WRE,Washington Real Estate Investment Trust (WRE),B Buy,F,F,B,F,4-Sell,$32.07,$1.20,3.74%
+CTLT,Catalent Inc. (CTLT),D+ Sell,B,C,D,B,3-Hold,$28.19,$0.00,0.00%
+MRO,Marathon Oil Corporation (MRO),D Sell,D,D,A,D,3-Hold,$17.23,$0.20,1.16%
+VR,Validus Holdings Ltd. (VR),A Buy,B,C,F,C,3-Hold,$57.73,$1.40,2.43%
+DB,Deutsche Bank AG (DB),D Sell,A,B,A,A,1-SB,$20.20,$0.00,0.00%
+EXC,Exelon Corporation (EXC),B- Buy,A,B,D,A,2-Buy,$35.78,$1.27,3.56%
+XOXO,XO Group Inc. (XOXO),B- Buy,C,C,B,C,3-Hold,$18.75,$0.00,0.00%
+SGY,Stone Energy Corporation (SGY),E+ Sell,B,F,B,C,2-Buy,$6.94,$0.00,0.00%
+PBI,Pitney Bowes Inc. (PBI),C Hold,A,C,C,A,4-Sell,$13.18,$0.75,5.69%
+GZT,Gazit-Globe Ltd. (GZT),D+ Sell,B,D,F,D,3-Hold,$9.60,$0.36,3.75%
+EPC,Energizer Holdings Inc. (EPC),C Hold,F,D,B,F,5-SS,$76.58,$0.00,0.00%
+TRCO,Tribune Media Company (TRCO),C- Hold,C,C,F,D,3-Hold,$29.28,$1.00,3.42%
+KAMN,Kaman Corporation (KAMN),A- Buy,B,A,A,A,3-Hold,$50.85,$0.72,1.42%
+BRS,Bristow Group Inc (BRS),D+ Sell,F,F,C,F,2-Buy,$20.54,$0.28,1.36%
+BITA,Bitauto Holdings Limited (BITA),C- Hold,B,F,B,C,3-Hold,$18.97,$0.00,0.00%
+SBY,Silver Bay Realty Trust Corp. (SBY),C Hold,D,B,C,C,3-Hold,$18.26,$0.52,2.85%
+WAC,Walter Investment Management Corp. (WAC),D Sell,B,B,F,C,3-Hold,$3.70,$0.00,0.00%
+SEAS,SeaWorld Entertainment Inc. (SEAS),C- Hold,B,C,A,A,5-SS,$18.31,$0.40,2.18%
+RYN,Rayonier Inc. (RYN),B- Buy,F,C,F,F,3-Hold,$28.94,$1.00,3.46%
+WK,Workiva Inc. (WK),E+ Sell,F,B,B,C,3-Hold,$12.85,$0.00,0.00%
+WTS,Watts Water Technologies Inc. (WTS),C Hold,D,D,C,D,4-Sell,$67.70,$0.72,1.06%
+ALV,Autoliv Inc. (ALV),B Buy,B,C,B,B,3-Hold,$103.36,$2.32,2.24%
+ESV,ENSCO PLC (ESV),D Sell,C,F,F,F,3-Hold,$11.38,$0.04,0.35%
+TD,Toronto Dominion Bank (The) (TD),B- Buy,B,D,D,D,2-Buy,$51.83,$1.64,3.16%
+LC,LendingClub Corporation (LC),D- Sell,F,F,D,F,3-Hold,$6.34,$0.00,0.00%
+BKE,Buckle Inc. (The) (BKE),C Hold,A,F,F,D,5-SS,$20.35,$1.00,4.91%
+CMG,Chipotle Mexican Grill Inc. (CMG),C- Hold,D,C,D,D,4-Sell,$404.08,$0.00,0.00%
+CC,Chemours Company (The) (CC),C- Hold,B,A,D,A,3-Hold,$27.62,$0.12,0.43%
+TPVG,TriplePoint Venture Growth BDC Corp. (TPVG),C+ Hold,C,F,A,D,3-Hold,$12.93,$1.44,11.14%
+AER,Aercap Holdings N.V. (AER),B Buy,A,C,B,A,4-Sell,$45.10,$0.00,0.00%
+GRUB,GrubHub Inc. (GRUB),C- Hold,D,F,A,D,4-Sell,$40.90,$0.00,0.00%
+CCK,Crown Holdings Inc. (CCK),B Buy,B,C,C,B,4-Sell,$53.08,$0.00,0.00%
+DCI,Donaldson Company Inc. (DCI),B Buy,C,A,C,B,3-Hold,$42.42,$0.70,1.65%
+KMT,Kennametal Inc. (KMT),C Hold,D,A,A,B,2-Buy,$37.96,$0.80,2.11%
+LPT,Liberty Property Trust (LPT),B Buy,D,D,B,D,3-Hold,$38.52,$1.90,4.93%
+ALK,Alaska Air Group Inc. (ALK),A+ Buy,A,B,F,B,2-Buy,$94.09,$1.10,1.17%
+CHK,Chesapeake Energy Corporation (CHK),E+ Sell,C,A,F,B,3-Hold,$6.57,$0.00,0.00%
+RLGY,Realogy Holdings Corp. (RLGY),C Hold,A,A,F,A,3-Hold,$26.22,$0.36,1.37%
+WCIC,WCI Communities Inc. (WCIC),B- Buy,C,B,A,B,3-Hold,$23.45,$0.00,0.00%
+DLX,Deluxe Corporation (DLX),A Buy,B,B,B,A,2-Buy,$73.47,$1.20,1.63%
+NCS,NCI Building Systems Inc. (NCS),B- Buy,A,B,D,A,1-SB,$16.05,$0.00,0.00%
+WTR,Aqua America Inc. (WTR),B+ Buy,D,D,D,D,3-Hold,$30.05,$0.77,2.55%
+DYN,Dynegy Inc. (DYN),D+ Sell,A,A,A,A,3-Hold,$9.62,$0.00,0.00%
+MOH,Molina Healthcare Inc (MOH),B Buy,A,A,D,A,3-Hold,$58.00,$0.00,0.00%
+SKT,Tanger Factory Outlet Centers Inc. (SKT),C+ Hold,D,D,D,F,4-Sell,$34.10,$1.30,3.81%
+SRLP,Sprague Resources LP (SRLP),B- Buy,A,D,D,B,2-Buy,$27.60,$2.25,8.15%
+ETH,Ethan Allen Interiors Inc. (ETH),B Buy,A,D,D,C,3-Hold,$28.40,$0.76,2.68%
+SCHW,The Charles Schwab Corporation (SCHW),A Buy,D,F,D,F,2-Buy,$40.17,$0.28,0.70%
+WSR,Whitestone REIT (WSR),C+ Hold,C,C,D,C,2-Buy,$13.94,$1.14,8.18%
+ENR,Energizer Holdings Inc. (ENR),C Hold,C,A,D,A,1-SB,$52.55,$1.10,2.09%
+UNT,Unit Corporation (UNT),D+ Sell,C,C,F,D,3-Hold,$27.43,$0.00,0.00%
+CXW,Corrections Corp. of America (CXW),B- Buy,B,C,D,C,1-SB,$29.49,$1.68,5.70%
+ALLE,Allegion PLC (ALLE),B- Buy,D,C,D,D,2-Buy,$67.33,$0.48,0.71%
+YELP,Yelp Inc. (YELP),D+ Sell,F,A,C,B,2-Buy,$42.32,$0.00,0.00%
+AET,Aetna Inc. (AET),B Buy,A,D,D,B,3-Hold,$122.56,$1.00,0.82%
+SAM,Boston Beer Company Inc. (The) (SAM),C+ Hold,C,A,B,A,4-Sell,$155.00,$0.00,0.00%
+JOY,Joy Global Inc. (JOY),D Sell,C,D,F,D,3-Hold,$28.14,$0.04,0.14%
+IVR,INVESCO MORTGAGE CAPITAL INC (IVR),D+ Sell,A,F,B,C,3-Hold,$14.89,$1.60,10.75%
+WIT,Wipro Limited (WIT),C+ Hold,B,D,A,B,4-Sell,$9.13,$0.06,0.64%
+DIS,Walt Disney Company (The) (DIS),A- Buy,C,C,D,C,3-Hold,$110.30,$1.56,1.41%
+JPM,J P Morgan Chase & Co (JPM),A- Buy,F,F,D,F,2-Buy,$87.18,$1.92,2.20%
+AKS,AK Steel Holding Corporation (AKS),D+ Sell,A,C,F,B,3-Hold,$8.13,$0.00,0.00%
+JCI,Johnson Controls International PLC (JCI),C Hold,D,F,F,F,3-Hold,$42.66,$1.00,2.34%
+MOD,Modine Manufacturing Company (MOD),C Hold,B,C,B,B,1-SB,$13.45,$0.00,0.00%
+HII,Huntington Ingalls Industries Inc. (HII),A Buy,B,B,F,B,2-Buy,$199.28,$2.40,1.20%
+HGG,HHGregg Inc. (HGG),D Sell,F,D,B,F,5-SS,$0.52,$0.00,0.00%
+STAY,Extended Stay America Inc. (STAY),C+ Hold,B,B,F,B,2-Buy,$17.16,$0.76,4.43%
+AAT,American Assets Trust Inc. (AAT),B- Buy,D,C,D,D,3-Hold,$42.90,$1.04,2.42%
+CAPL,CrossAmerica Partners LP (CAPL),C Hold,B,A,C,A,4-Sell,$25.92,$2.45,9.45%
+SB,Safe Bulkers Inc (SB),D Sell,F,F,D,F,2-Buy,$1.50,$0.00,0.00%
+XRX,Xerox Corporation (XRX),B- Buy,A,F,F,D,5-SS,$7.15,$0.31,4.34%
+VSLR,Vivint Solar Inc. (VSLR),D Sell,F,F,B,F,3-Hold,$3.10,$0.00,0.00%
+TSLX,TPG Specialty Lending Inc. (TSLX),C Hold,D,C,F,D,2-Buy,$18.87,$1.56,8.27%
+MSCI,MSCI Inc (MSCI),B Buy,D,A,B,B,2-Buy,$91.65,$1.12,1.22%
+SNP,China Petroleum & Chemical Corporation (SNP),C+ Hold,A,B,F,A,3-Hold,$79.93,$1.86,2.33%
+KW,Kennedy-Wilson Holdings Inc. (KW),C- Hold,D,D,C,F,3-Hold,$21.05,$0.56,2.66%
+HE,Hawaiian Electric Industries Inc. (HE),A- Buy,B,B,F,B,2-Buy,$33.55,$1.24,3.70%
+GM,General Motors Company (GM),A- Buy,A,B,D,A,2-Buy,$36.33,$1.52,4.18%
+FDP,Fresh Del Monte Produce Inc. (FDP),A- Buy,A,A,A,A,3-Hold,$58.77,$0.60,1.02%
+AT,Atlantic Power Corporation (AT),D Sell,B,A,F,B,3-Hold,$2.35,$0.00,0.00%
+AP,Ampco-Pittsburgh Corporation (AP),D+ Sell,C,F,C,F,3-Hold,$15.60,$0.36,2.31%
+ATI,Allegheny Technologies Incorporated (ATI),D+ Sell,D,A,A,B,3-Hold,$21.65,$0.24,1.11%
+JBL,Jabil Circuit Inc. (JBL),B Buy,A,A,F,A,1-SB,$24.39,$0.32,1.31%
+NWL,Newell Brands Inc. (NWL),B- Buy,C,B,C,B,3-Hold,$46.89,$0.76,1.62%
+AXS,Axis Capital Holdings Limited (AXS),B+ Buy,A,D,A,B,3-Hold,$66.66,$1.52,2.28%
+XHR,Xenia Hotels & Resorts Inc. (XHR),C Hold,B,C,A,B,4-Sell,$18.36,$1.10,5.99%
+FSM,Fortuna Silver Mines Inc. (FSM),D+ Sell,D,A,B,B,4-Sell,$6.30,$0.00,0.00%
+NWHM,New Home Company Inc. (The) (NWHM),C Hold,B,D,D,C,3-Hold,$10.50,$0.00,0.00%
+KGC,Kinross Gold Corporation (KGC),C- Hold,B,A,F,A,3-Hold,$3.92,$0.00,0.00%
+CXO,Concho Resources Inc. (CXO),C- Hold,F,D,C,F,3-Hold,$142.70,$0.00,0.00%
+SNV,Synovus Financial Corp. (SNV),A Buy,C,D,D,D,1-SB,$42.26,$0.48,1.14%
+VFC,V.F. Corporation (VFC),C+ Hold,C,F,B,D,4-Sell,$49.56,$1.68,3.39%
+EL,Estee Lauder Companies Inc. (The) (EL),B Buy,C,A,F,C,3-Hold,$83.02,$1.36,1.64%
+SSNI,Silver Spring Networks Inc. (SSNI),D- Sell,C,F,C,F,3-Hold,$13.09,$0.00,0.00%
+BAK,Braskem S.A. (BAK),C Hold,A,A,A,A,3-Hold,$19.86,$1.44,7.26%
+VAL,Valspar Corporation (The) (VAL),B+ Buy,D,A,D,B,5-SS,$110.30,$1.48,1.34%
+TCP,TC PipeLines LP (TCP),B- Buy,D,D,A,D,3-Hold,$59.49,$3.76,6.32%
+SC,Santander Consumer USA Holdings Inc. (SC),C- Hold,A,C,F,B,5-SS,$13.84,$0.00,0.00%
+LGF.A,Lions Gate Entertainment Corporation (LGF.A),C- Hold,C,D,C,D,3-Hold,$28.30,$0.36,1.27%
+SRT,StarTek Inc. (SRT),C- Hold,C,A,B,A,3-Hold,$8.75,$0.00,0.00%
+WOR,Worthington Industries Inc. (WOR),B Buy,A,A,F,A,2-Buy,$48.05,$0.80,1.66%
+COR,CoreSite Realty Corporation (COR),B Buy,D,B,C,C,4-Sell,$87.25,$3.20,3.67%
+GLOG,GasLog LP. (GLOG),C Hold,C,A,C,B,2-Buy,$17.00,$0.56,3.29%
+JW.A,John Wiley & Sons Inc. (JW.A),C+ Hold,C,D,A,C,3-Hold,$54.90,$1.24,2.26%
+AGCO,AGCO Corporation (AGCO),C Hold,C,F,B,D,3-Hold,$63.18,$0.52,0.82%
+HES,Hess Corporation (HES),D+ Sell,F,B,C,D,3-Hold,$54.31,$1.00,1.84%
+ENZ,Enzo Biochem Inc. (ENZ),B Buy,A,A,D,A,2-Buy,$6.92,$0.00,0.00%
+CX,Cemex S.A.B. de C.V. (CX),C Hold,C,D,B,C,3-Hold,$9.22,$0.00,0.00%
+CMS,CMS Energy Corporation (CMS),A- Buy,C,F,A,D,3-Hold,$42.62,$1.33,3.12%
+TOT,TotalFinaElf S.A. (TOT),C Hold,A,D,B,B,3-Hold,$50.81,$2.21,4.35%
+CST,CST Brands Inc. (CST),B Buy,A,B,C,A,4-Sell,$48.15,$0.13,0.26%
+WGL,WGL Holdings Inc (WGL),B Buy,C,D,F,F,2-Buy,$82.44,$1.95,2.37%
+PNR,Pentair PLC. (PNR),C Hold,B,C,A,B,3-Hold,$58.39,$1.38,2.36%
+CPK,Chesapeake Utilities Corporation (CPK),B Buy,C,D,C,D,3-Hold,$65.50,$1.22,1.86%
+SU,Suncor Energy  Inc. (SU),D+ Sell,B,D,D,D,1-SB,$31.27,$0.86,2.76%
+SMI,Semiconductor  Manufacturing International Corporation (SMI),C+ Hold,B,B,B,A,4-Sell,$6.91,$0.00,0.00%
+BMO,Bank Of Montreal (BMO),C Hold,F,F,D,F,2-Buy,$75.98,$2.62,3.45%
+EROS,Eros International PLC (EROS),C- Hold,A,D,F,C,2-Buy,$11.95,$0.00,0.00%
+WNS,WNS (Holdings) Limited (WNS),B Buy,C,C,A,B,2-Buy,$28.55,$0.00,0.00%
+BPL,Buckeye Partners L.P. (BPL),B- Buy,C,A,C,B,2-Buy,$71.80,$4.90,6.82%
+G,Genpact Limited (G),B+ Buy,B,B,B,B,3-Hold,$25.02,$0.00,0.00%
+EMR,Emerson Electric Company (EMR),C+ Hold,B,B,B,A,3-Hold,$59.54,$1.92,3.22%
+RSPP,RSP Permian Inc. (RSPP),C Hold,F,F,D,F,3-Hold,$42.44,$0.00,0.00%
+BRSS,Global Brass and Copper Holdings Inc. (BRSS),B Buy,A,A,F,A,3-Hold,$34.40,$0.15,0.44%
+BOOT,Boot Barn Holdings Inc. (BOOT),D+ Sell,A,A,F,A,4-Sell,$11.09,$0.00,0.00%
+BLK,BlackRock Inc. (BLK),B Buy,D,F,D,F,3-Hold,$378.00,$9.16,2.42%
+DO,Diamond Offshore Drilling Inc. (DO),D Sell,B,D,D,C,3-Hold,$17.06,$0.00,0.00%
+RES,RPC Inc. (RES),C- Hold,F,C,B,C,2-Buy,$21.92,$0.20,0.91%
+WGP,Western Gas Equity Partners LP (WGP),B- Buy,D,B,B,C,3-Hold,$44.78,$1.85,4.13%
+RMD,ResMed Inc. (RMD),B+ Buy,C,B,A,B,3-Hold,$68.21,$1.32,1.94%
+PRI,Primerica Inc. (PRI),A Buy,B,D,D,C,2-Buy,$77.25,$0.72,0.93%
+NOC,Northrop Grumman Corporation (NOC),A Buy,B,A,F,B,3-Hold,$231.36,$3.60,1.56%
+WDAY,Workday Inc. (WDAY),D Sell,F,B,D,D,3-Hold,$84.40,$0.00,0.00%
+MA,Mastercard Incorporated (MA),A- Buy,D,D,D,F,3-Hold,$106.58,$0.88,0.83%
+AHH,Armada Hoffler Properties Inc. (AHH),C+ Hold,C,C,A,C,3-Hold,$13.77,$0.72,5.23%
+NMM,Navios Maritime Partners LP (NMM),D Sell,A,F,C,C,3-Hold,$1.66,$0.00,0.00%
+BMA,Macro Bank Inc. (BMA),B+ Buy,A,C,F,B,3-Hold,$77.72,$0.98,1.26%
+TIME,Time Inc. (TIME),C- Hold,C,C,C,B,4-Sell,$19.40,$0.76,3.92%
+NPO,EnPro Industries (NPO),C Hold,D,C,B,C,3-Hold,$67.59,$0.84,1.24%
+ETE,Energy Transfer Equity L.P. (ETE),C Hold,A,D,F,C,3-Hold,$19.05,$1.14,5.98%
+CBK,Christopher & Banks Corporation (CBK),D Sell,D,B,F,D,4-Sell,$1.36,$0.00,0.00%
+WHR,Whirlpool Corporation (WHR),B Buy,A,A,F,A,3-Hold,$173.61,$4.00,2.30%
+VZ,Verizon Communications Inc. (VZ),B Buy,B,D,F,D,3-Hold,$48.58,$2.31,4.76%
+HRB,H&R Block Inc. (HRB),C Hold,A,A,A,A,3-Hold,$21.43,$0.88,4.11%
+SQM,Sociedad Quimica y Minera S.A. (SQM),B Buy,F,C,C,D,1-SB,$33.15,$0.74,2.22%
+HL,Hecla Mining Company (HL),C Hold,D,A,C,B,4-Sell,$6.54,$0.01,0.15%
+POR,Portland General Electric Company (POR),A+ Buy,B,C,D,C,2-Buy,$43.55,$1.28,2.94%
+ENLK,EnLink Midstream Partners LP (ENLK),C- Hold,C,B,A,B,3-Hold,$19.30,$1.56,8.08%
+HLT,Hilton Worldwide Holdings Inc. (HLT),B Buy,F,F,A,F,5-SS,$57.80,$0.84,1.45%
+BKH,Black Hills Corporation (BKH),B Buy,D,C,B,C,2-Buy,$61.57,$1.68,2.73%
+CALX,Calix Inc (CALX),D+ Sell,C,C,D,C,3-Hold,$7.20,$0.00,0.00%
+FCX,Freeport-McMoran Inc. (FCX),C- Hold,B,B,F,B,3-Hold,$15.83,$0.00,0.00%
+KAI,Kadant Inc (KAI),B+ Buy,B,B,C,B,3-Hold,$61.95,$0.76,1.23%
+WMC,Western Asset Mortgage Capital Corporation (WMC),D Sell,C,F,D,F,4-Sell,$10.20,$1.24,12.16%
+BMY,Bristol-Myers Squibb Company (BMY),B- Buy,C,C,D,D,3-Hold,$50.78,$1.56,3.07%
+CE,Celanese Corporation (CE),B+ Buy,B,C,C,B,2-Buy,$86.59,$1.44,1.66%
+BABA,Alibaba Group Holding Limited (BABA),B- Buy,D,A,A,B,1-SB,$100.39,$0.00,0.00%
+TMHC,Taylor Morrison Home Corporation (TMHC),B Buy,B,A,B,A,4-Sell,$19.00,$0.00,0.00%
+FIT,Fitbit Inc. (FIT),D Sell,B,A,D,A,4-Sell,$6.09,$0.00,0.00%
+ALLY,Ally Financial Inc. (ALLY),C Hold,A,C,B,B,5-SS,$22.71,$0.32,1.41%
+WCN,Waste Connections Inc. (WCN),A- Buy,D,B,B,C,3-Hold,$80.62,$0.72,0.89%
+NS,Nustar Energy L.P. (NS),C+ Hold,C,F,F,F,3-Hold,$54.54,$4.38,8.03%
+MG,Mistras Group Inc (MG),B Buy,C,C,F,C,5-SS,$23.01,$0.00,0.00%
+MMS,Maximus Inc. (MMS),B+ Buy,B,B,A,A,3-Hold,$56.17,$0.18,0.32%
+DEA,Easterly Government Properties Inc. (DEA),C Hold,D,D,D,F,3-Hold,$19.51,$0.96,4.92%
+BBW,Build-A-Bear Workshop Inc. (BBW),B- Buy,A,F,A,C,3-Hold,$11.75,$0.00,0.00%
+ONDK,On Deck Capital Inc. (ONDK),D Sell,B,D,F,D,3-Hold,$5.15,$0.00,0.00%
+PDM,Piedmont Office Realty Trust Inc. (PDM),B- Buy,D,F,B,F,2-Buy,$21.52,$0.84,3.90%
+TSQ,Townsquare Media Inc. (TSQ),D Sell,A,A,F,A,3-Hold,$11.15,$0.00,0.00%
+SPA,Sparton Corporation (SPA),C- Hold,A,A,C,A,3-Hold,$22.00,$0.00,0.00%
+BFAM,Bright Horizons Family Solutions Inc. (BFAM),B Buy,D,C,F,D,3-Hold,$71.84,$0.00,0.00%
+DBD,Diebold Incorporated (DBD),C Hold,C,F,C,F,4-Sell,$26.45,$0.40,1.51%
+AL,Air Lease Corporation (AL),A- Buy,A,D,D,B,3-Hold,$37.00,$0.30,0.81%
+PNW,Pinnacle West Capital Corporation (PNW),A Buy,C,C,D,C,2-Buy,$78.03,$2.62,3.36%
+CBT,Cabot Corporation (CBT),C+ Hold,B,A,B,A,4-Sell,$58.50,$1.20,2.05%
+NLSN,Nielsen N.V. (NLSN),C+ Hold,D,B,B,C,5-SS,$42.46,$1.24,2.92%
+MO,Altria Group (MO),B+ Buy,D,C,F,F,3-Hold,$71.49,$2.44,3.41%
+AMT,American Tower Corporation (REIT) (AMT),B Buy,D,C,C,D,4-Sell,$105.25,$2.32,2.20%
+NMR,Nomura Holdings Inc ADR (NMR),D+ Sell,B,A,C,A,3-Hold,$6.60,$0.09,1.41%
+YDKN,Yadkin Financial Corporation (YDKN),B Buy,D,B,B,C,3-Hold,$32.27,$0.40,1.24%
+VMC,Vulcan Materials Company (VMC),A+ Buy,F,B,A,C,4-Sell,$128.88,$0.80,0.62%
+AMX,America Movil S.A.B. de C.V. (AMX),C Hold,A,A,B,A,3-Hold,$12.58,$0.29,2.27%
+HIFR,InfraREIT Inc. (HIFR),D Sell,C,C,D,C,3-Hold,$16.95,$1.00,5.90%
+HFC,HollyFrontier Corporation (HFC),C Hold,A,C,D,B,3-Hold,$28.66,$1.32,4.61%
+LVLT,Level 3 Communications Inc. (LVLT),B- Buy,C,D,C,D,4-Sell,$59.02,$0.00,0.00%
+HPE,Hewlett Packard Enterprise Company (HPE),C- Hold,A,C,F,B,2-Buy,$23.50,$0.26,1.11%
+FDS,FactSet Research Systems Inc. (FDS),A- Buy,F,B,F,D,2-Buy,$176.16,$2.00,1.14%
+SNOW,Intrawest Resorts Holdings Inc. (SNOW),C+ Hold,C,C,D,C,1-SB,$22.11,$0.00,0.00%
+NKE,Nike Inc. (NKE),B Buy,D,C,F,D,3-Hold,$52.36,$0.72,1.38%
+MEP,Midcoast Energy Partners L.P. (MEP),D+ Sell,A,D,D,B,3-Hold,$8.00,$1.43,17.88%
+CGI,Celadon Group Inc. (CGI),C Hold,B,F,D,F,3-Hold,$8.95,$0.08,0.89%
+MJN,Mead Johnson Nutrition Company (MJN),C Hold,F,B,D,D,5-SS,$84.08,$1.65,1.96%
+WBS,Webster Financial Corporation (WBS),B+ Buy,D,D,C,D,2-Buy,$53.68,$1.00,1.86%
+MBT,Mobile TeleSystems OJSC (MBT),C- Hold,A,D,B,B,1-SB,$10.50,$0.64,6.13%
+BAC,Bank of America Corporation (BAC),B+ Buy,C,B,A,B,2-Buy,$23.29,$0.30,1.29%
+EVER,EverBank Financial Corp. (EVER),C Hold,A,F,F,D,3-Hold,$19.44,$0.24,1.23%
+WPC,W.P. Carey Inc. (WPC),B Buy,D,D,F,F,2-Buy,$62.43,$3.96,6.34%
+SAP,SAP SE (SAP),B+ Buy,D,F,F,F,4-Sell,$92.52,$0.93,1.01%
+POL,PolyOne Corporation (POL),C+ Hold,A,B,C,A,3-Hold,$34.88,$0.54,1.55%
+MKC,McCormick & Company Incorporated (MKC),A- Buy,D,A,B,B,4-Sell,$95.86,$1.88,1.96%
+MFC,Manulife Financial Corp (MFC),B+ Buy,A,D,C,B,2-Buy,$19.06,$0.55,2.90%
+AIZ,Assurant Inc. (AIZ),B+ Buy,C,F,D,D,3-Hold,$98.01,$2.12,2.16%
+MPC,Marathon Petroleum Corporation (MPC),B- Buy,A,C,F,B,3-Hold,$48.16,$1.44,2.99%
+UAN,CVR Partners LP (UAN),C Hold,C,F,C,F,3-Hold,$6.33,$0.71,11.22%
+TS,Tenaris S.A. (TS),C Hold,F,B,B,C,2-Buy,$35.14,$0.52,1.48%
+BLX,Banco Latinoamericano de Comercio Exterior S.A. (BLX),C Hold,B,D,A,B,3-Hold,$27.43,$1.54,5.61%
+CBD,Companhia Brasileira de Distribuicao (CBD),D+ Sell,D,F,A,F,5-SS,$18.81,$0.00,0.02%
+MCC,Medley Capital Corporation (MCC),C Hold,C,B,B,B,5-SS,$7.63,$0.88,11.53%
+BEL,Belmond Ltd. (BEL),C+ Hold,D,B,B,B,1-SB,$14.05,$0.00,0.00%
+EOG,EOG Resources Inc. (EOG),C- Hold,F,D,A,D,3-Hold,$100.94,$0.67,0.66%
+SAR,Saratoga Investment Corp (SAR),B- Buy,A,A,D,A,2-Buy,$21.31,$1.80,8.45%
+SPN,Superior Energy Services Inc. (SPN),D Sell,C,F,C,D,3-Hold,$18.47,$0.00,0.00%
+CBM,Cambrex Corporation (CBM),B Buy,B,A,B,A,3-Hold,$58.25,$0.00,0.00%
+WCC,WESCO International Inc. (WCC),C Hold,A,C,A,A,3-Hold,$71.30,$0.00,0.00%
+NSA,National Storage Affiliates Trust (NSA),D Sell,D,C,D,D,2-Buy,$22.95,$0.96,4.18%
+MYE,Myers Industries Inc. (MYE),C Hold,C,B,D,C,3-Hold,$13.80,$0.54,3.91%
+AGRO,Adecoagro S.A. (AGRO),C- Hold,C,D,A,D,3-Hold,$12.56,$0.00,0.00%
+POST,Post Holdings Inc. (POST),B Buy,C,A,C,B,3-Hold,$85.37,$0.00,0.00%
+WMS,Advanced Drainage Systems Inc. (WMS),C- Hold,C,C,C,C,4-Sell,$24.15,$0.24,0.99%
+DIN,DineEquity Inc (DIN),B- Buy,B,F,C,D,4-Sell,$67.62,$3.88,5.74%
+PX,Praxair Inc. (PX),B- Buy,C,C,F,C,3-Hold,$117.47,$3.00,2.55%
+NAV,Navistar International Corporation (NAV),D- Sell,A,A,D,A,3-Hold,$27.77,$0.00,0.00%
+MSGN,MSG Networks Inc. (MSGN),C Hold,B,D,A,C,2-Buy,$21.65,$0.00,0.00%
+NVS,Novartis AG (NVS),C+ Hold,B,C,F,C,3-Hold,$73.89,$2.30,3.12%
+FE,FirstEnergy Corporation (FE),C Hold,A,C,A,A,3-Hold,$29.89,$1.44,4.82%
+NAP,Navios Maritime Midstream Partners LP (NAP),C- Hold,A,D,C,B,4-Sell,$12.32,$1.69,13.72%
+NOAH,Noah Holdings Ltd. (NOAH),B Buy,C,C,C,C,3-Hold,$23.44,$0.00,0.00%
+BANC,Banc of California Inc. (BANC),B- Buy,C,F,F,F,3-Hold,$16.35,$0.52,3.18%
+CCC,Calgon Carbon Corporation (CCC),C+ Hold,A,C,D,B,3-Hold,$16.20,$0.20,1.23%
+ETM,Entercom Communications Corporation (ETM),B Buy,B,C,C,B,3-Hold,$15.85,$0.30,1.89%
+SEP,Spectra Energy Partners LP (SEP),B- Buy,B,F,A,C,3-Hold,$45.82,$2.70,5.90%
+BCR,C.R. Bard Inc. (BCR),A- Buy,C,D,A,D,2-Buy,$237.86,$1.04,0.44%
+SE,Spectra Energy Corp (SE),B- Buy,F,D,D,F,2-Buy,$42.89,$1.62,3.78%
+MPX,Marine Products Corporation (MPX),B Buy,C,D,A,D,4-Sell,$10.98,$0.24,2.19%
+ALSN,Allison Transmission Holdings Inc. (ALSN),B Buy,D,D,F,F,3-Hold,$35.48,$0.60,1.69%
+KMPR,Kemper Corporation (KMPR),C+ Hold,B,D,D,C,2-Buy,$43.75,$0.96,2.19%
+NPTN,NeoPhotonics Corporation (NPTN),C- Hold,B,B,B,A,5-SS,$11.24,$0.00,0.00%
+CAT,Caterpillar Inc. (CAT),C Hold,C,B,C,B,3-Hold,$93.28,$3.08,3.30%
+PEG,Public Service Enterprise Group Incorporated (PEG),A- Buy,B,C,C,B,3-Hold,$43.71,$1.64,3.75%
+CSC,Computer Sciences Corporation (CSC),C+ Hold,B,A,C,A,3-Hold,$69.95,$0.56,0.80%
+WPX,WPX Energy Inc. (WPX),D+ Sell,D,D,A,D,2-Buy,$14.08,$0.00,0.00%
+CORR,CorEnergy Infrastructure Trust Inc. (CORR),B Buy,B,B,B,B,3-Hold,$35.74,$3.00,8.39%
+WMT,Wal-Mart Stores Inc. (WMT),C+ Hold,A,B,C,A,4-Sell,$66.50,$2.00,3.01%
+SAIC,SCIENCE APPLICATIONS INTERNATIONAL CORPORATION (SAIC),B+ Buy,B,A,C,A,2-Buy,$82.70,$1.24,1.50%
+MGM,MGM Resorts International (MGM),B Buy,C,B,B,B,2-Buy,$28.86,$0.00,0.00%
+WDR,Waddell & Reed Financial Inc. (WDR),C Hold,B,D,F,D,3-Hold,$17.90,$1.84,10.28%
+SM,SM Energy Company (SM),D Sell,C,D,A,C,3-Hold,$29.81,$0.10,0.34%
+LXP,Lexington Realty Trust (LXP),C+ Hold,C,D,C,D,3-Hold,$10.86,$0.70,6.45%
+MODN,Model N Inc. (MODN),D Sell,F,D,D,F,3-Hold,$9.30,$0.00,0.00%
+HCA,HCA Holdings Inc. (HCA),B- Buy,A,A,B,A,2-Buy,$83.80,$0.00,0.00%
+KIM,Kimco Realty Corporation (KIM),B- Buy,D,D,D,F,4-Sell,$24.85,$1.08,4.35%
+MAIN,Main Street Capital Corporation (MAIN),B Buy,F,F,C,F,2-Buy,$36.49,$2.22,6.08%
+BCRH,Blue Capital Reinsurance Holdings Ltd. (BCRH),A- Buy,B,B,A,A,2-Buy,$18.80,$1.20,6.38%
+SLF,Sun Life Financial Inc. (SLF),A+ Buy,B,F,A,C,4-Sell,$38.82,$1.25,3.23%
+NWE,NorthWestern Corporation (NWE),A- Buy,C,B,C,B,3-Hold,$56.92,$2.00,3.51%
+MMP,Magellan Midstream Partners L.P. (MMP),B+ Buy,D,D,A,C,3-Hold,$78.63,$3.42,4.35%
+NR,Newpark Resources Inc. (NR),D Sell,C,D,C,D,2-Buy,$7.70,$0.00,0.00%
+EC,Ecopetrol S.A. (EC),D+ Sell,A,B,D,A,3-Hold,$9.67,$0.00,0.00%
+JOE,St. Joe Company (The) (JOE),C Hold,F,F,C,F,3-Hold,$17.25,$0.00,0.00%
+MCD,McDonald's Corporation (MCD),C+ Hold,D,B,C,C,3-Hold,$124.24,$3.76,3.03%
+PEP,Pepsico Inc. (PEP),A Buy,C,B,D,C,4-Sell,$105.11,$3.01,2.86%
+PTR,PetroChina Company Limited (PTR),C Hold,A,D,A,B,3-Hold,$78.12,$0.59,0.76%
+JWN,Nordstrom Inc. (JWN),C Hold,A,A,F,A,3-Hold,$43.90,$1.48,3.37%
+BEN,Franklin Resources Inc. (BEN),C Hold,B,B,A,A,3-Hold,$40.31,$0.80,1.98%
+ETR,Entergy Corporation (ETR),B Buy,B,C,F,C,3-Hold,$71.82,$3.48,4.85%
+LPX,Louisiana-Pacific Corporation (LPX),B Buy,B,A,D,A,2-Buy,$19.89,$0.00,0.00%
+TMH,Team Health Holdings Inc. (TMH),C Hold,B,A,C,A,4-Sell,$43.50,$0.00,0.00%
+MAA,Mid-America Apartment Communities Inc. (MAA),B Buy,D,D,F,D,4-Sell,$97.98,$3.48,3.55%
+BFS,Saul Centers Inc. (BFS),C+ Hold,D,D,F,F,3-Hold,$63.70,$2.04,3.20%
+DHT,DHT Holdings Inc. (DHT),C Hold,B,C,C,B,3-Hold,$4.91,$0.08,1.63%
+BG,Bunge Limited (BG),B Buy,A,B,C,A,4-Sell,$69.63,$1.68,2.41%
+NORD,Nord Anglia Education Inc. (NORD),D Sell,D,D,C,F,2-Buy,$22.60,$0.00,0.00%
+MET,MetLife Inc. (MET),B- Buy,A,F,B,C,4-Sell,$51.77,$1.60,3.09%
+PEB,Pebblebrook Hotel Trust (PEB),C+ Hold,B,C,A,A,3-Hold,$29.57,$1.52,5.14%
+KSS,Kohl's Corporation (KSS),C+ Hold,A,C,F,B,5-SS,$40.17,$2.00,4.98%
+DDS,Dillard's Inc. (DDS),C Hold,A,F,D,C,4-Sell,$57.19,$0.28,0.49%
+KS,KapStone Paper and Packaging Corporation (KS),C+ Hold,B,C,D,B,3-Hold,$24.72,$0.40,1.62%
+B,Barnes Group Inc. (B),B+ Buy,C,A,A,A,4-Sell,$47.83,$0.52,1.09%
+WWW,Wolverine World Wide Inc. (WWW),B- Buy,A,D,A,B,4-Sell,$21.23,$0.24,1.13%
+AM,Antero Midstream Partners LP (AM),C+ Hold,C,B,C,C,3-Hold,$33.76,$1.12,3.32%
+KAR,KAR Auction Services Inc (KAR),B+ Buy,B,D,D,C,3-Hold,$45.19,$1.28,2.83%
+JLL,Jones Lang LaSalle Incorporated (JLL),C+ Hold,B,F,F,D,4-Sell,$106.26,$0.66,0.62%
+NSP,Insperity Inc. (NSP),B Buy,B,A,C,A,3-Hold,$72.45,$1.00,1.38%
+URI,United Rentals Inc. (URI),B Buy,A,B,A,A,3-Hold,$128.65,$0.00,0.00%
+FL,Foot Locker Inc. (FL),A Buy,A,D,D,B,2-Buy,$69.54,$1.10,1.58%
+CB,D/B/A Chubb Limited New (CB),A Buy,C,D,A,C,3-Hold,$131.28,$2.76,2.10%
+RJF,Raymond James Financial Inc. (RJF),B+ Buy,D,F,D,F,1-SB,$76.35,$0.88,1.15%
+AN,AutoNation Inc. (AN),B- Buy,A,B,A,A,3-Hold,$49.77,$0.00,0.00%
+AMC,AMC Entertainment Holdings Inc. (AMC),B Buy,B,C,D,C,3-Hold,$32.90,$0.80,2.43%
+WBC,Wabco Holdings Inc. (WBC),B Buy,C,B,F,C,3-Hold,$114.55,$0.00,0.00%
+SPR,Spirit Aerosystems Holdings Inc. (SPR),B Buy,A,B,C,A,3-Hold,$56.05,$0.40,0.71%
+NTT,Nippon Telegraph and Telephone Corporation (NTT),B Buy,A,A,F,A,3-Hold,$43.55,$0.98,2.26%
+FUL,H. B. Fuller Company (FUL),B- Buy,C,A,C,B,5-SS,$50.01,$0.56,1.12%
+TLYS,Tilly's Inc. (TLYS),C+ Hold,B,B,C,A,3-Hold,$13.19,$0.00,0.00%
+MWA,MUELLER WATER PRODUCTS (MWA),B+ Buy,D,B,D,C,4-Sell,$13.70,$0.12,0.88%
+CLX,Clorox Company (The) (CLX),B Buy,D,A,D,C,3-Hold,$125.14,$3.20,2.56%
+MOV,Movado Group Inc. (MOV),B- Buy,B,F,A,C,3-Hold,$26.05,$0.52,2.00%
+LRN,K12 Inc (LRN),C+ Hold,A,A,B,A,3-Hold,$18.71,$0.00,0.00%
+K,Kellogg Company (K),B Buy,C,D,C,D,3-Hold,$73.36,$2.08,2.84%
+BSAC,Banco Santander Chile (BSAC),C Hold,D,F,B,F,3-Hold,$21.85,$0.86,3.94%
+SKM,SK Telecom Co. Ltd. (SKM),B- Buy,A,B,C,A,2-Buy,$21.74,$0.06,0.27%
+CBZ,CBIZ Inc. (CBZ),A- Buy,B,C,A,B,3-Hold,$12.95,$0.00,0.00%
+DEI,Douglas Emmett Inc. (DEI),C+ Hold,D,C,D,F,3-Hold,$37.95,$0.92,2.42%
+AKR,Acadia Realty Trust (AKR),B Buy,F,F,D,F,4-Sell,$32.15,$1.04,3.23%
+KATE,Kate Spade & Company (KATE),C Hold,C,C,D,C,4-Sell,$18.36,$0.00,0.00%
+NYLD,NRG Yield Inc. (NYLD),D Sell,C,A,C,B,3-Hold,$17.25,$1.00,5.80%
+HMC,Honda Motor Company Ltd. (HMC),B- Buy,A,C,F,B,1-SB,$31.06,$0.68,2.18%
+AAN,Aaron's  Inc. (AAN),B Buy,A,A,B,A,3-Hold,$29.93,$0.11,0.37%
+CCP,Care Capital Properties Inc. (CCP),C- Hold,B,D,D,C,3-Hold,$25.17,$2.28,9.06%
+MCRN,Milacron Holdings Corp. (MCRN),D+ Sell,B,F,C,C,2-Buy,$17.20,$0.00,0.00%
+PF,Pinnacle Foods Inc. (PF),A Buy,D,D,B,D,2-Buy,$54.03,$1.14,2.11%
+CCI,Crown Castle International Corporation (CCI),B- Buy,F,D,D,F,3-Hold,$88.74,$3.80,4.28%
+CABO,Cable One Inc. (CABO),C Hold,F,A,F,D,5-SS,$645.00,$6.00,0.93%
+TMST,Timken Steel Corporation (TMST),D Sell,C,C,D,C,2-Buy,$17.02,$0.00,0.00%
+CAG,ConAgra Foods Inc. (CAG),B+ Buy,C,C,D,C,2-Buy,$39.37,$0.80,2.03%
+DHX,DHI Group Inc. (DHX),D Sell,A,C,D,B,3-Hold,$5.65,$0.00,0.00%
+FCFS,First Cash Inc. (FCFS),C Hold,D,F,F,F,5-SS,$43.55,$0.76,1.75%
+DAN,Dana Incorporated (DAN),C+ Hold,A,C,D,B,3-Hold,$20.07,$0.24,1.20%
+NP,Neenah Paper Inc. (NP),A- Buy,B,A,D,B,3-Hold,$82.65,$1.32,1.60%
+TSN,Tyson Foods Inc. (TSN),A- Buy,A,B,F,A,3-Hold,$65.39,$0.60,0.92%
+BBG,Bill Barrett Corporation (BBG),D Sell,D,C,A,C,2-Buy,$6.38,$0.00,0.00%
+ELY,Callaway Golf Company (ELY),C Hold,B,B,F,C,3-Hold,$10.30,$0.04,0.39%
+CZZ,Cosan Limited (CZZ),C Hold,A,A,A,A,2-Buy,$8.77,$0.09,1.04%
+LOW,Lowe's Companies Inc. (LOW),B Buy,A,B,D,A,3-Hold,$73.29,$1.40,1.91%
+LEE,Lee Enterprises Incorporated (LEE),D+ Sell,A,F,A,B,4-Sell,$3.05,$0.00,0.00%
+AJG,Arthur J. Gallagher & Co. (AJG),B Buy,C,B,C,C,3-Hold,$54.01,$1.52,2.81%
+CM,Canadian Imperial Bank of Commerce (CM),C Hold,C,F,C,D,3-Hold,$86.66,$3.69,4.26%
+AMP,AMERIPRISE FINANCIAL SERVICES INC. (AMP),B Buy,A,F,B,C,2-Buy,$121.26,$3.00,2.47%
+MFA,MFA Financial Inc. (MFA),C Hold,D,F,A,F,3-Hold,$7.99,$0.80,10.01%
+PKG,Packaging Corporation of America (PKG),B Buy,B,B,F,B,3-Hold,$94.22,$2.52,2.67%
+HHS,Harte-Hanks Inc. (HHS),D Sell,A,A,F,A,3-Hold,$1.64,$0.09,5.18%
+NNA,Navios Maritime Acquisition Corporation (NNA),C Hold,A,C,D,B,4-Sell,$1.81,$0.20,11.05%
+PKI,PerkinElmer Inc. (PKI),B Buy,D,B,C,C,5-SS,$52.17,$0.28,0.54%
+FC,Franklin Covey Company (FC),C Hold,F,C,D,D,5-SS,$17.70,$0.00,0.00%
+HD,Home Depot Inc. (The) (HD),A- Buy,B,B,C,B,3-Hold,$137.98,$2.76,2.00%
+NLS,Nautilus Group Inc. (The) (NLS),B Buy,B,C,F,C,4-Sell,$17.15,$0.00,0.00%
+MX,MagnaChip Semiconductor Corporation (MX),D+ Sell,F,D,B,F,1-SB,$8.75,$0.00,0.00%
+NOA,North American Energy Partners Inc. (NOA),C- Hold,A,C,C,B,3-Hold,$5.65,$0.06,1.06%
+LNN,Lindsay Corporation (LNN),C Hold,F,A,A,B,5-SS,$75.84,$1.16,1.53%
+AAP,Advance Auto Parts Inc (AAP),B+ Buy,B,C,B,C,2-Buy,$162.75,$0.24,0.15%
+M,Macy's Inc (M),C Hold,A,F,F,D,3-Hold,$32.69,$1.51,4.62%
+AGX,Argan Inc. (AGX),A+ Buy,A,A,B,A,3-Hold,$72.90,$0.70,0.96%
+WF,Woori Bank (WF),C Hold,A,C,F,B,5-SS,$35.53,$0.00,0.00%
+BHLB,Berkshire Hills Bancorp Inc. (BHLB),B+ Buy,C,D,A,C,4-Sell,$35.90,$0.80,2.23%
+BBT,BB&T Corporation (BBT),B+ Buy,D,D,F,F,2-Buy,$46.61,$1.20,2.57%
+ZTS,Zoetis Inc. (ZTS),B+ Buy,D,C,D,D,4-Sell,$55.92,$0.42,0.75%
+BSBR,Banco Santander Brasil SA (BSBR),B- Buy,D,F,C,F,2-Buy,$10.34,$0.31,2.95%
+NRP,Natural Resource Partners LP (NRP),C Hold,A,F,C,C,3-Hold,$37.00,$1.80,4.86%
+TSM,Taiwan Semiconductor Manufacturing Company Ltd. (TSM),A Buy,B,B,A,A,3-Hold,$30.97,$0.75,2.43%
+CACI,CACI International Inc. (CACI),A- Buy,A,B,D,A,2-Buy,$130.20,$0.00,0.00%
+BCC,Boise Cascade L.L.C. (BCC),C Hold,A,A,C,A,5-SS,$25.75,$0.00,0.00%
+KCG,KCG Holdings Inc. (KCG),B- Buy,A,A,F,A,3-Hold,$14.28,$0.00,0.00%
+NGS,Natural Gas Services Group Inc. (NGS),C Hold,C,D,D,D,3-Hold,$29.15,$0.00,0.00%
+LXU,Lsb Industries Inc. (LXU),D Sell,F,F,F,F,3-Hold,$8.91,$0.00,0.00%
+TWTR,Twitter Inc. (TWTR),C- Hold,F,A,D,C,3-Hold,$17.61,$0.00,0.00%
+MAN,ManpowerGroup (MAN),A- Buy,A,B,D,A,2-Buy,$98.69,$1.72,1.74%
+PPL,PPL Corporation (PPL),A- Buy,C,D,F,D,3-Hold,$35.46,$1.52,4.29%
+OMI,Owens & Minor Inc. (OMI),B+ Buy,A,D,B,B,3-Hold,$36.00,$1.02,2.83%
+CMA,Comerica Incorporated (CMA),B Buy,D,D,F,D,2-Buy,$68.49,$0.92,1.34%
+WPZ,Williams Partners LP (WPZ),C Hold,C,A,A,A,3-Hold,$40.37,$3.40,8.42%
+MITT,AG Mortgage Investment Trust Inc. (MITT),C Hold,B,F,C,D,4-Sell,$17.48,$1.90,10.87%
+LYB,LyondellBasell Industries NV (LYB),B Buy,A,B,C,A,2-Buy,$94.69,$3.40,3.59%
+BC,Brunswick Corporation (BC),B- Buy,A,A,D,A,3-Hold,$60.88,$0.66,1.08%
+BAP,Credicorp Ltd. (BAP),C+ Hold,C,C,D,C,2-Buy,$163.96,$2.32,1.41%
+NADL,North Atlantic Drilling Ltd. (NADL),D Sell,A,F,A,B,3-Hold,$2.39,$0.00,0.00%
+NM,Navios Maritime Holdings Inc. (NM),D Sell,B,D,B,C,3-Hold,$1.94,$0.00,0.00%
+BCEI,Bonanza Creek Energy Inc. (BCEI),E+ Sell,A,C,C,B,2-Buy,$2.04,$0.00,0.00%
+MHK,Mohawk Industries Inc. (MHK),A Buy,C,A,C,B,4-Sell,$215.39,$0.00,0.00%
+NLY,Annaly Capital Management Inc (NLY),C Hold,B,F,C,D,2-Buy,$10.31,$1.20,11.64%
+WAL,Western Alliance Bancorporation (WAL),A Buy,D,C,B,C,2-Buy,$50.11,$0.00,0.00%
+AYR,Aircastle Limited (AYR),B Buy,A,B,C,A,3-Hold,$22.79,$1.04,4.56%
+SLCA,U.S. Silica Holdings Inc. (SLCA),C Hold,F,F,A,F,2-Buy,$58.22,$0.25,0.43%
+UBA,Urstadt Biddle Properties Inc. (UBA),A- Buy,D,C,C,D,2-Buy,$22.54,$1.06,4.70%
+RAI,Reynolds American Inc (RAI),A+ Buy,F,F,B,F,4-Sell,$60.39,$1.84,3.05%
+AFL,Aflac Incorporated (AFL),B Buy,A,F,F,C,3-Hold,$68.61,$1.72,2.51%
+MCK,McKesson Corporation (MCK),C Hold,A,C,A,A,3-Hold,$138.84,$1.12,0.81%
+USDP,USD Partners LP (USDP),D Sell,A,A,C,A,3-Hold,$15.20,$1.29,8.49%
+DLNG,Dynagas LNG Partners LP (DLNG),C+ Hold,A,C,F,B,3-Hold,$16.85,$1.69,10.03%
+MAC,Macerich Company (The) (MAC),C+ Hold,D,F,C,F,4-Sell,$69.34,$2.84,4.10%
+KMI,Kinder Morgan Inc. (KMI),C Hold,D,F,F,F,3-Hold,$22.94,$0.50,2.18%
+OC,Owens Corning Inc (OC),A+ Buy,A,A,B,A,4-Sell,$55.00,$0.80,1.45%
+LYG,Lloyds Banking Group PLC (LYG),D+ Sell,C,F,D,D,4-Sell,$3.34,$0.13,3.93%
+VPG,Vishay Precision Group Inc. (VPG),C+ Hold,B,B,C,A,3-Hold,$16.60,$0.00,0.00%
+TPC,Tutor Perini Corporation (TPC),C Hold,A,A,F,A,3-Hold,$30.50,$0.00,0.00%
+LMT,Lockheed Martin Corporation (LMT),B Buy,C,C,B,C,3-Hold,$254.46,$7.28,2.86%
+BCE,BCE Inc. (BCE),B Buy,B,C,D,C,3-Hold,$44.06,$2.03,4.61%
+GNRC,Generac Holdlings Inc. (GNRC),C Hold,B,D,B,C,4-Sell,$40.60,$0.00,0.00%
+KEP,Korea Electric Power Corporation (KEP),B- Buy,A,A,F,A,3-Hold,$18.29,$0.00,0.00%
+THG,The Hanover Insurance Group Inc. (THG),A Buy,A,C,D,B,3-Hold,$90.10,$2.00,2.22%
+ALE,Allete Inc. (ALE),A Buy,C,F,B,D,3-Hold,$65.87,$2.08,3.16%
+SN,Sanchez Energy Corporation (SN),D- Sell,C,A,B,A,2-Buy,$13.46,$0.00,0.00%
+KB,KB Financial Group Inc (KB),B- Buy,B,F,B,D,1-SB,$41.69,$0.00,0.00%
+NMFC,New Mountain Finance Corporation (NMFC),B Buy,D,F,C,F,3-Hold,$14.55,$1.36,9.35%
+DLPH,Delphi Automotive PLC (DLPH),B Buy,A,A,C,A,3-Hold,$73.74,$1.16,1.57%
+RL,Ralph Lauren Corporation (RL),C Hold,A,D,A,B,3-Hold,$76.17,$2.00,2.63%
+NVTA,Invitae Corporation (NVTA),D Sell,F,D,F,F,4-Sell,$9.06,$0.00,0.00%
+PKE,Park Electrochemical Corporation (PKE),C Hold,D,F,D,F,4-Sell,$18.46,$0.40,2.17%
+CLW,Clearwater Paper Corporation (CLW),B- Buy,B,D,C,C,3-Hold,$63.20,$0.00,0.00%
+RM,Regional Management Corp. (RM),C+ Hold,A,B,C,A,3-Hold,$24.80,$0.00,0.00%
+NSM,Nationstar Mortgage Holdings Inc. (NSM),D+ Sell,A,B,F,B,3-Hold,$18.72,$0.00,0.00%
+BETR,Amplify Snack Brands inc. (BETR),D Sell,C,B,F,C,3-Hold,$10.26,$0.00,0.00%
+BMS,Bemis Company Inc. (BMS),B+ Buy,B,B,B,A,3-Hold,$48.84,$1.16,2.38%
+DE,Deere & Company (DE),B Buy,B,B,D,B,3-Hold,$107.99,$2.40,2.22%
+WR,Westar Energy Inc. (WR),A- Buy,C,B,C,C,3-Hold,$54.68,$1.52,2.78%
+CBI,Chicago Bridge & Iron Company N.V. (CBI),C Hold,A,B,F,B,2-Buy,$33.33,$0.28,0.84%
+PSX,Phillips 66 (PSX),C+ Hold,B,B,C,A,3-Hold,$79.95,$2.52,3.15%
+SNA,Snap-On Incorporated (SNA),A+ Buy,B,B,A,B,2-Buy,$169.78,$2.84,1.67%
+JBT,John Bean Technologies Corporation (JBT),A Buy,D,D,C,F,3-Hold,$87.60,$0.40,0.46%
+CBR,Ciber Inc. (CBR),D Sell,C,D,A,C,3-Hold,$0.29,$0.00,0.00%
+PGRE,Paramount Group Inc. (PGRE),C Hold,D,F,C,F,3-Hold,$16.70,$0.38,2.28%
+CAJ,Canon Inc. (CAJ),C+ Hold,A,C,F,C,2-Buy,$29.00,$1.18,4.05%
+MSG,MSG Networks Inc. (MSG),C- Hold,F,A,F,D,2-Buy,$175.37,$0.00,0.00%
+MCO,Moody's Corporation (MCO),B- Buy,D,B,D,C,3-Hold,$106.17,$1.48,1.39%
+USG,USG Corporation (USG),B Buy,A,C,F,B,3-Hold,$30.85,$0.00,0.00%
+PNC,PNC Financial Services Group Inc. (The) (PNC),A- Buy,D,F,A,D,2-Buy,$122.16,$2.20,1.80%
+ENVA,Enova International Inc. (ENVA),D- Sell,A,A,F,A,5-SS,$15.05,$0.00,0.00%
+VMI,Valmont Industries Inc. (VMI),C Hold,C,C,A,B,4-Sell,$145.10,$1.50,1.03%
+LPL,LG Display Co. Ltd. (LPL),B- Buy,A,B,B,A,1-SB,$13.18,$0.00,0.00%
+BKFS,Black Knight Financial Services Inc. (BKFS),C Hold,B,A,A,A,4-Sell,$37.90,$0.00,0.00%
+NSR,Neustar Inc. (NSR),B Buy,A,D,D,B,3-Hold,$33.20,$0.00,0.00%
+BBY,Best Buy Co. Inc. (BBY),B+ Buy,A,B,B,A,4-Sell,$44.73,$1.12,2.50%
+SHAK,Shake Shack Inc. (SHAK),D Sell,F,B,F,D,4-Sell,$35.40,$0.00,0.00%
+ESS,Essex Property Trust Inc. (ESS),A Buy,F,C,C,D,3-Hold,$223.08,$6.40,2.87%
+VOYA,Voya Financial Inc. (VOYA),C Hold,A,F,F,C,3-Hold,$41.14,$0.04,0.10%
+MRC,MRC Global Inc. (MRC),D+ Sell,C,A,A,A,2-Buy,$20.78,$0.00,0.00%
+PG,Procter & Gamble Company (The) (PG),B+ Buy,D,D,C,D,3-Hold,$87.41,$2.68,3.06%
+DRQ,Dril-Quip Inc. (DRQ),C Hold,C,C,F,C,3-Hold,$63.00,$0.00,0.00%
+IRET,Investors Real Estate Trust (IRET),C- Hold,C,F,D,F,3-Hold,$6.55,$0.28,4.27%
+EIX,Edison International (EIX),B+ Buy,C,D,B,C,4-Sell,$72.54,$2.17,2.99%
+PXD,Pioneer Natural Resources Company (PXD),C Hold,F,C,A,C,3-Hold,$183.84,$0.08,0.04%
+KKR,KKR & Co. L.P. (KKR),C Hold,B,C,A,B,3-Hold,$17.61,$0.64,3.63%
+HRTG,Heritage Insurance Holdings Inc. (HRTG),C+ Hold,A,D,B,B,3-Hold,$14.36,$0.24,1.67%
+GPT,Gramercy Property Trust (GPT),C Hold,D,C,D,D,3-Hold,$26.83,$1.50,5.59%
+HCLP,Hi-Crush Partners LP (HCLP),D+ Sell,F,F,B,F,2-Buy,$20.40,$0.00,0.00%
+BW,Babcock (BW),C Hold,A,D,B,B,2-Buy,$16.77,$0.00,0.00%
+VALE,VALE S.A. (VALE),C- Hold,B,B,A,A,3-Hold,$9.73,$0.04,0.42%
+GLOP,GasLog Partners LP (GLOP),D+ Sell,B,D,A,B,3-Hold,$22.55,$1.96,8.69%
+AHT,Ashford Hospitality Trust Inc (AHT),D Sell,A,B,A,A,4-Sell,$7.97,$0.48,6.02%
+S,Sprint Corporation (S),D+ Sell,C,B,F,C,3-Hold,$8.43,$0.00,0.00%
+EQC,Equity Commonwealth (EQC),B- Buy,F,F,C,F,4-Sell,$30.93,$0.00,0.00%
+OEC,Orion Engineered Carbons S.A (OEC),C- Hold,A,A,F,A,3-Hold,$21.20,$0.70,3.31%
+ERJ,Embraer-Empresa Brasileira de Aeronautica (ERJ),C Hold,B,F,A,C,3-Hold,$23.02,$0.00,0.00%
+MRIN,Marin Software Incorporated (MRIN),D Sell,F,A,B,C,3-Hold,$2.20,$0.00,0.00%
+DAL,Delta Air Lines Inc. (DAL),B Buy,A,B,B,A,2-Buy,$47.81,$0.81,1.69%
+STI,SunTrust Banks Inc. (STI),A- Buy,C,F,C,F,2-Buy,$57.97,$1.04,1.79%
+GWR,Genesee & Wyoming Inc. (GWR),C+ Hold,B,D,F,D,3-Hold,$75.62,$0.00,0.00%
+WD,Walker & Dunlop Inc. (WD),C+ Hold,A,A,B,A,3-Hold,$32.95,$0.00,0.00%
+PSA,Public Storage (PSA),B Buy,F,C,D,D,3-Hold,$216.53,$8.00,3.69%
+DD,E.I. du Pont de Nemours and Company (DD),B Buy,C,A,D,B,3-Hold,$76.43,$1.52,1.99%
+MIXT,MiX Telematics Limited (MIXT),B- Buy,A,A,F,A,1-SB,$7.73,$0.10,1.34%
+ESNT,Essent Group Ltd. (ESNT),A- Buy,B,B,C,A,2-Buy,$35.91,$0.00,0.00%
+KBR,KBR Inc. (KBR),C Hold,B,F,C,D,3-Hold,$16.66,$0.32,1.92%
+CAH,Cardinal Health Inc. (CAH),B Buy,A,C,C,B,3-Hold,$74.87,$1.80,2.40%
+DLB,Dolby Laboratories (DLB),B- Buy,C,A,F,C,2-Buy,$48.22,$0.56,1.16%
+EQR,Equity Residential (EQR),B Buy,F,F,F,F,3-Hold,$60.38,$2.02,3.34%
+MDR,McDermott International Inc. (MDR),C Hold,B,B,F,C,1-SB,$8.28,$0.00,0.00%
+MDP,Meredith Corporation (MDP),B Buy,C,B,A,B,2-Buy,$61.90,$1.98,3.20%
+JEC,Jacobs Engineering Group Inc. (JEC),B- Buy,B,A,D,A,2-Buy,$59.22,$0.00,0.00%
+KOS,Kosmos Energy Ltd. (KOS),D Sell,D,F,F,F,2-Buy,$6.53,$0.00,0.00%
+LUV,Southwest Airlines Company (LUV),A Buy,B,D,D,C,2-Buy,$52.88,$0.40,0.76%
