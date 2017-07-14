@@ -10,6 +10,12 @@ const app = express();
 
 const PORT = 3003;
 
+var pg = require('pg');
+require('dotenv').config();
+var connectionString = 'pg://' + process.env.DBUSER + ':' + process.env.DBPASS + '@' + process.env.DBADDRESS + ':5432/stockanalyzer';
+var client = new pg.Client(connectionString);
+client.connect();
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cookieParser());
 app.use(cors());
@@ -34,9 +40,17 @@ MongoClient.connect('mongodb://dev:password@ds143449.mlab.com:43449/stocks', (er
 });*/
 
 app.get('/stocks', (req, res) => {
-	db.collection('stocks').find().toArray((err, results) => {
+	/*db.collection('stocks').find().toArray((err, results) => {
 		res.send(results);
+	});*/
+	var query = client.query('select * from stocks', [], (err, results) => {
+		console.log('results: ', results.rows);
+		res.json(results.rows.map(function(row){
+			row.recid = row.id;
+			return row;
+		}));
 	});
+	query.on('end', function() {client.end();});
 });
 
 app.get('/query', (req, res) => {
