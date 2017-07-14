@@ -7,23 +7,22 @@ var MongoClient = require('mongodb').MongoClient;
 require('promise/lib/rejection-tracking').enable();
 
 var zacksConfig = {
-  'value': '//*[@id="quote_ribbon_v2"]/div[1]/div[3]/div[2]/div[2]/p/span[1]',
-  'name':'//*[@id="quote_ribbon_v2"]/header/h1/a',
-  'growth': '//*[@id="quote_ribbon_v2"]/div[1]/div[3]/div[2]/div[2]/p/span[2]',
-  'momentum': '//*[@id="quote_ribbon_v2"]/div[1]/div[3]/div[2]/div[2]/p/span[3]',
-  'vgm': '//*[@id="quote_ribbon_v2"]/div[1]/div[3]/div[2]/div[2]/p/span[4]',
-  'price': '//*[@id="quote_ribbon_v2"]/div[1]/div[1]/p[1]',
-  'dividend':'//*[@id="stock_activity"]/table/tbody/tr[8]/td[2]/a/span',
-  'rating': '//*[@id="quote_ribbon_v2"]/div[1]/div[3]/div[2]/div[1]' // example: '2-Buy    2'
-}
+	'value': '//*[@id="quote_ribbon_v2"]/div[2]/div[2]/p/span[1]',
+	'name': '//*[@id="quote_ribbon_v2"]/div[1]/header/h1/a',
+	'growth': '//*[@id="quote_ribbon_v2"]/div[2]/div[2]/p/span[2]',
+	'momentum': '//*[@id="quote_ribbon_v2"]/div[2]/div[2]/p/span[3]',
+	'vgm': '//*[@id="quote_ribbon_v2"]/div[2]/div[2]/p/span[4]',
+	'price': '//*[@id="stock_activity"]/table/tbody/tr[1]/td[2]',
+	'dividend':'//*[@id="stock_activity"]/table/tbody/tr[8]/td[2]/span',
+	'rating': '//*[@id="quote_ribbon_v2"]/div[2]/div[1]/p'
+};
 
 var theStreetConfig = {
-  'grade': '//*[@id="promo-div-quote-nav-unit-large-screen"]/div[1]/span[2]'
-}
+	'grade': '//*[@id="promo-div-quote-nav-unit-large-screen"]/div[1]/span[2]'
+};
 
 // Morning star -- have to pay for some data
 // market grader -- have to pay for some data
-
 
 //var t = ['MSFT', 'PFE'];//, 'PFE', 'JNJ', 'CVX', 'CCL', 'UNH' ,'ABBV' ,'DGX' ,'MRK', 'SNY'];
 
@@ -31,20 +30,20 @@ var theStreetConfig = {
 
 var t = fs.readFileSync('stocks_A.txt', 'utf8').split(',');
 // I think we want to clear the collection before we start saving
-var db;
-MongoClient.connect('mongodb://dev:password@ds143449.mlab.com:43449/stocks', (err, database) => { // make the username/pw part of a gitignored file and read it in
-	db = database;
+//var db;
+//MongoClient.connect('mongodb://dev:password@ds143449.mlab.com:43449/stocks', (err, database) => { // make the username/pw part of a gitignored file and read it in
+//	db = database;
 
-	if (err) { console.log('err'); return;}
+//	if (err) { console.log('err'); return;}
 	console.log(('ticker\tgrade\tvalue\tgrowth\tmomntm\tVGM\trating').yellow);
 	fs.writeFileSync('stock_results.txt', 'ticker,grade,name,value,growth,momntm,VGM,rating,price,dividend amt,dividend pcnt\n');
 	
-	db.collection('stocks').remove({});
+//	db.collection('stocks').remove({});
 
 	t.forEach(function(ticker){
 		getData(ticker);
 	});
-});
+//});
 
 function getData(ticker){
   getTheStreet(ticker).then(function(st){
@@ -52,8 +51,6 @@ function getData(ticker){
       if (st.grade && z.rating){
 
 				// also include, a/q revenue growth, a/q net income growth, operating margin (relative to peer avg?? -- marketgrader), PE ratio?, dividend history?, volume, market cap?
-				// sector rate? (marketgrader)
-				// industry/sector (the street profile tab)
 
 				var str = ticker + ':\t' + c(st.grade) + '\t' + c(z.value) + '\t' + c(z.growth);
 				str += '\t' + c(z.momentum) + '\t' + c(z.vgm) + '\t' + c(z.rating) + '\t' + z.price;
@@ -67,10 +64,6 @@ function getData(ticker){
 				fileStr += z.dividend.split('(')[1].replace(')','').trim() + '\n';
 				fs.appendFileSync('stock_results.txt', fileStr);
 
-				// add row to db
-				db.collection('stocks').save(createRow(st, z, ticker), (err, result) => {
-					if (err) {console.log('err: ', err);}
-				});
       }
     }).catch(function(e){});
   }).catch(function(e){});
