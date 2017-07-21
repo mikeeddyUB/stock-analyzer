@@ -24,14 +24,14 @@ let db;
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-
+/*
 MongoClient.connect('mongodb://dev:password@ds143449.mlab.com:43449/stocks', (err, database) => { // make the username/pw part of a gitignored file and read it in
 	db = database;
 	if (err) { console.log('err'); return;}
 	app.listen(PORT, () => {
 		console.log(`listening on ${PORT}`);
 	});
-});
+});*/
 
 //app.use(express.static(path.join(__dirname, 'www')));
 
@@ -44,13 +44,11 @@ app.get('/stocks', (req, res) => {
 		res.send(results);
 	});*/
 	var query = client.query('select * from stocks', [], (err, results) => {
-		console.log('results: ', results.rows);
 		res.json(results.rows.map(function(row){
 			row.recid = row.id;
 			return row;
 		}));
 	});
-	query.on('end', function() {client.end();});
 });
 
 app.get('/query', (req, res) => {

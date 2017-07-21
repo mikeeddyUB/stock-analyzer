@@ -70,7 +70,6 @@ function getData(ticker){
       }
     }).catch(function(e){});
   }).catch(function(e){});
-	console.log('DONE');
 }
 
 function doTheDamnThing(st, z, ticker){
@@ -95,9 +94,9 @@ function createRow(st, z, ticker){
 		momentum: fc(z.momentum),
 		vgm: fc(z.vgm),
 		rating: fc(z.rating).split(' ')[0],
-		last_dividend: z.price.replace(',','').replace('USD','').trim(),
-		dividend_percentage: z.dividend.split('(')[0].trim(),
-		price: z.dividend.split('(')[1].replace(')','').trim()
+		price: z.price.replace(',','').replace('USD','').trim(),
+		dividend_percentage: z.dividend.split('(')[1].trim(),
+		last_dividend: z.dividend.split('(')[0].replace(')','').trim()
 	};
 }
 
