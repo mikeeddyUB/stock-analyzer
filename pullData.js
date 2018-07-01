@@ -1,14 +1,8 @@
+#!/bin/node
 var osmosis = require('osmosis');
 var Promise = require('promise');
 var colors = require('colors');
 var fs = require('fs');
-var pg = require('pg');
-
-require('dotenv').config();
-var connectionString = 'pg://' + process.env.DBUSER + ':' + process.env.DBPASS + '@' + process.env.DBADDRESS + ':5432/stockanalyzer';
-
-var client = new pg.Client(connectionString);
-client.connect();
 
 var zacksConfig = {
 	'value': '//*[@id="quote_ribbon_v2"]/div[2]/div[2]/p/span[1]',
@@ -28,51 +22,52 @@ var theStreetConfig = {
 // Morning star -- have to pay for some data
 // market grader -- have to pay for some data
 
-var t = fs.readFileSync('stocks_A.txt', 'utf8').split(',');
-// I think we want to clear the collection before we start saving
-//var db;
-//	db = database;
+function fetchAllData() {
+	var tickers = fs.readFileSync('tickers.txt', 'utf8').split(',');
 
-//	if (err) { console.log('err'); return;}
 	console.log(('ticker\tgrade\tvalue\tgrowth\tmomntm\tVGM\trating').yellow);
 	fs.writeFileSync('stock_results.txt', 'ticker,grade,name,value,growth,momntm,VGM,rating,price,dividend amt,dividend pcnt\n');
 	
-	t.forEach(function(ticker){
-		getData(ticker);
-	});
-//});
+	return Promise.all(tickers.map((ticker) => {
+		return getData(ticker);
+	}));
+}
 
-var query;
+(async ()=>{
+	await fetchAllData();
+	console.log('DONE');
+})();
 
 function getData(ticker){
-  getTheStreet(ticker).then(function(st){
-    getZacks(ticker).then(function(z){
-      if (ticker && st.grade && z.rating){
+	return Promise.all([getTheStreet(ticker), getZacks(ticker)]).then((results) => {
+		let st = results[0];
+		let z = results[1];
 
-				// also include, a/q revenue growth, a/q net income growth, operating margin (relative to peer avg?? -- marketgrader), PE ratio?, dividend history?, volume, market cap?
+    if (ticker && st.grade && z.rating){
 
-				var str = ticker + ':\t' + c(st.grade) + '\t' + c(z.value) + '\t' + c(z.growth);
-				str += '\t' + c(z.momentum) + '\t' + c(z.vgm) + '\t' + c(z.rating) + '\t' + z.price;
-				str += '\t' + z.dividend.split('(')[0].trim() + '\t' + z.dividend.split('(')[1].replace(')','').trim();
-				console.log(str);
+			// also include, a/q revenue growth, a/q net income growth, operating margin (relative to peer avg?? -- marketgrader), PE ratio?, dividend history?, volume, market cap?
 
-				var fileStr = ticker + ',' + z.name.replace(',','') + ',' + fc(st.grade) + ',' + fc(z.value);
-				fileStr += ',' + fc(z.growth) + ',' + fc(z.momentum) + ',' + fc(z.vgm) + ',' + fc(z.rating).split(' ')[0];
-				fileStr += ',' + z.price.replace(',','').replace('USD','').trim() + ',';
-				fileStr += '$' + z.dividend.split('(')[0].trim() + ',';
-				fileStr += z.dividend.split('(')[1].replace(')','').trim() + '\n';
-				fs.appendFileSync('stock_results.txt', fileStr);
+			var str = ticker + ':\t' + c(st.grade) + '\t' + c(z.value) + '\t' + c(z.growth);
+			str += '\t' + c(z.momentum) + '\t' + c(z.vgm).trim() + '\t' + c(z.rating).trim() + '\t' + z.price;
+			str += '\t' + z.dividend.split('(')[0].trim() + '\t' + z.dividend.split('(')[1].replace(')','').trim();
+			console.log(str);
 
-				query = client.query(doTheDamnThing(st, z, ticker));
+			var fileStr = ticker + ',' + z.name.replace(',','') + ',' + fc(st.grade) + ',' + fc(z.value);
+			fileStr += ',' + fc(z.growth) + ',' + fc(z.momentum) + ',' + fc(z.vgm) + ',' + fc(z.rating).split(' ')[0];
+			fileStr += ',' + z.price.replace(',','').replace('USD','').trim() + ',';
+			fileStr += '$' + z.dividend.split('(')[0].trim() + ',';
+			fileStr += z.dividend.split('(')[1].replace(')','').trim() + '\n';
+			fs.appendFileSync('stock_results.txt', fileStr);
+
+//				query = client.query(insertRow(st, z, ticker));
 
 //				query.on('end', function() { client.end(); });
 
-      }
-    }).catch(function(e){});
-  }).catch(function(e){});
+		  }
+		}, (e) => {console.error(e)}).catch(function(e){console.error(e);rej(e);});
 }
 
-function doTheDamnThing(st, z, ticker){
+function insertRow(st, z, ticker){
 	var row = createRow(st, z, ticker);
 	var insert = `insert into stocks(id, ticker, company, st_grade, value, growth, momentum, vgm, rating, last_dividend, dividend_percentage, price) values ('${ticker}', '${row.ticker}', '${row.company}', '${row.st_grade}', '${row.value}', '${row.growth}', '${row.momentum}', '${row.vgm}', '${row.rating}', '${row.last_dividend}', '${row.dividend_percentage}', '${row.price}');`;
 
@@ -103,41 +98,30 @@ function createRow(st, z, ticker){
 function c(grade){
 	// have method to parse grade correctly
   grade = grade.replace(')', '').replace('(', '');
-  grade = grade.replace('Strong Buy', 'SB').replace('Buy', 'Buy').replace('Sell', 'Sell').replace('Hold', 'Hold').replace('Strong Sell', 'SS');
+  grade = grade.replace('Strong Buy', 'SB  ').replace('Buy', 'Buy ').replace('Sell', 'Sell').replace('Hold', 'Hold').replace('Strong Sell', 'SS ');
   switch(grade[0]){
     case 'A':
       return grade.green;
-      break;
     case 'B':
       return grade.blue;
-      break;
     case 'C':
       return grade.gray;
-      break;
     case 'D':
       return grade.red;
-      break;
     case 'E':
       return grade.red;
-      break;
     case 'F':
       return grade.red;
-      break;
     case '1':
       return grade.green;
-      break;
     case '2':
       return grade.blue;
-      break;
     case '3':
       return grade.gray;
-      break;
     case '4':
       return grade.red;
-      break;
     case '5':
       return grade.red;
-      break;
     default:
       console.log('unknown grade: ', grade);
       return '?';
@@ -147,7 +131,7 @@ function c(grade){
 
 function fc(grade){
   grade = grade.replace(')', '').replace('(', '');
-  grade = grade.replace('Strong Buy', 'SB').replace('Buy', 'Buy').replace('Sell', 'Sell').replace('Hold', 'Hold').replace('Strong Sell', 'SS');
+  grade = grade.replace('Strong Buy', 'SB  ').replace('Buy', 'Buy ').replace('Sell', 'Sell').replace('Hold', 'Hold').replace('Strong Sell', 'SS  ');
   return grade;
 }
 
@@ -157,12 +141,16 @@ function getTheStreet(ticker){return fetch('https://www.thestreet.com/quote/' + 
 
 function fetch(url, config){
   return new Promise(function(suc, fail){
-    try{
-      osmosis.get(url).set(config).data(function(data){
-        suc(data);
+//    try{
+      let result = {};
+			osmosis.get(url).set(config).data(item => {result = item;}).done(() => {
+        suc(result);
       });
-    } catch (e) {
-      fail(e);
-    }
+//    } catch (e) {
+//      fail(e);
+//    }
   });
 }
+//
+// switch to using mongoDB
+// add front end
