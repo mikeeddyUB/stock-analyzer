@@ -3,6 +3,7 @@ var osmosis = require('osmosis');
 var Promise = require('promise');
 var colors = require('colors');
 var fs = require('fs');
+var Excel = require('exceljs');
 
 var zacksConfig = {
 	'value': '//*[@id="quote_ribbon_v2"]/div[2]/div[2]/p/span[1]',
@@ -33,9 +34,32 @@ function fetchAllData() {
 	}));
 }
 
+let workbook = new Excel.Workbook();
+let sheet = workbook.addWorksheet('stocks');
+sheet.columns = [
+	{header: 'Ticker', key: 'ticker', width: 6},
+	{header: 'Company', key: 'company', width: 40},
+	{header: 'Street Grade', key: 'st_grade', width: 12},
+	{header: 'Value', key: 'value', width: 7},
+	{header: 'Growth', key: 'growth', width: 8},
+	{header: 'Momentum', key: 'momentum', width: 10},
+	{header: 'VGM', key: 'vgm', width: 5},
+	{header: 'Rating', key: 'rating', width: 7},
+	{header: 'Price', key: 'price', width: 10},
+	{header: 'Dividend Percentage', key: 'dividend_percentage', width: 20},
+	{header: 'LastDividend', key: 'last_dividend', width: 12}
+];
+sheet.autoFilter = 'A1:K1';
+
+// sheet.mergeCells('A1:B2')
+// workbook.commit() ???
+
 (async ()=>{
 	await fetchAllData();
 	console.log('DONE');
+	//sheet.autoFilter = {from: 'A1', to: 'K12'};
+	await workbook.xlsx.writeFile('report.xlsx');
+	console.log('DONE WITH REPORT');
 })();
 
 function getData(ticker){
@@ -58,6 +82,8 @@ function getData(ticker){
 			fileStr += '$' + z.dividend.split('(')[0].trim() + ',';
 			fileStr += z.dividend.split('(')[1].replace(')','').trim() + '\n';
 			fs.appendFileSync('stock_results.txt', fileStr);
+
+			sheet.addRow(createRow(st, z, ticker));
 
 //				query = client.query(insertRow(st, z, ticker));
 
@@ -90,7 +116,7 @@ function createRow(st, z, ticker){
 		vgm: fc(z.vgm),
 		rating: fc(z.rating).split(' ')[0],
 		price: z.price.replace(',','').replace('USD','').trim(),
-		dividend_percentage: z.dividend.split('(')[1].trim(),
+		dividend_percentage: z.dividend.split('(')[1].trim().replace(')',''),
 		last_dividend: z.dividend.split('(')[0].replace(')','').trim()
 	};
 }

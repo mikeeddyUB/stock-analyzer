@@ -3,3 +3,5 @@ node_modules/*
 .env
 tickers.txt
 stock_results.txt
+report.xlsx
+
