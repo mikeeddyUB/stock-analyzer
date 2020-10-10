@@ -16,7 +16,7 @@
     "cors": "^2.8.4",
     "exceljs": "^1.5.1",
     "express": "^4.16.3",
-    "mongodb": "^2.2.35",
+    "mongodb": "^3.1.13",
     "osmosis": "^1.1.7",
     "path": "^0.12.7",
     "promise": "^7.3.1"
